@@ -1,13 +1,88 @@
+@import url("https://p.typekit.net/p.css?s=1&k=rcr1opg&ht=tk&f=15493.24537.24539.24541.24543.24545.24547.24548.39106.39110.39115&a=3835293&app=typekit&e=css");
+
+@font-face {
+font-family:"cubano";
+src:url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'cubano', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  background-color: #23272a !important;
+}
+.navbar-brand {
+  color: #b2becd !important;
+}
+.custom-link {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  color: #b2becd !important;
+}
+.custom-link:hover,
+.custom-link:active,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: #fff !important;
+}
+
+.custom-link.nav-link svg{
+  vertical-align: text-bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#responsive-navbar-nav {
+  justify-content: flex-end;
+}
+
+/* .bg-hero-img {
+  background-image: url(./component/assets/hero_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.home-wrapper {
+  /* background-color: #23272a; */
+  height: 100vh;
+}
+h2.splitting{
+  color: #b2becd;
+  font-size: 3rem;
+}
+h2.splitting .char {
+  animation: slide-in .7s cubic-bezier(.3, 0, .7, 1) both;
+  animation-delay: calc(50ms * var(--char-index));
+animation-play-state:running;
+}
+
+@keyframes slide-in {
+  from {
+    transform: scale(0.4) translateY(80%);
+    opacity: 0;
+  }
 }
