@@ -18,7 +18,7 @@ export default function Home() {
       });
       console.log(split_res[0].chars);
       setLines(split_res[0].chars);
-      console.log(`Split text into ${lines} lines`)
+      console.log(lines);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [splitRef])
@@ -34,7 +34,7 @@ export default function Home() {
   
 
     return (
-      <div className="container-fluid">
+      <div className="container-fluid home">
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-xs-12">

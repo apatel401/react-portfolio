@@ -1,0 +1,106 @@
+@import url("https://p.typekit.net/p.css?s=1&k=rcr1opg&ht=tk&f=15493.24537.24539.24541.24543.24545.24547.24548.39106.39110.39115&a=3835293&app=typekit&e=css");
+
+@font-face {
+  font-family: "cubano";
+  src: url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "cubano", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --background: #b2becd;
+  --text-primary: #23272a;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+[data-theme='dark'] {
+  --background: #23272a;
+  --text-primary: #b2becd;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+.main-container{
+    .navbar {
+        background-color: var(--background) !important;
+      .navbar-brand {
+        color: var(--text-primary) !important;
+        &:hover,
+        &:active{
+            color: #fff !important;
+        }
+      }
+      .custom-link {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+        color: var(--background) !important;
+        &:hover,
+        &:active{
+            color: #fff !important;
+        }
+      }
+      .custom-link.nav-link svg {
+        vertical-align: text-bottom;
+      }
+      
+      #responsive-navbar-nav {
+        justify-content: flex-end;
+      }
+    }
+      .home{
+          background-color: var(--background);
+      }
+      .home-wrapper {
+        /* background-color: #23272a; */
+        height: 100vh;
+      }
+      h2.splitting {
+        color: var(--background);
+        font-size: 3rem;
+      }
+      h2.splitting .char {
+        animation: slide-in 0.7s cubic-bezier(0.3, 0, 0.7, 1) both;
+        animation-delay: calc(50ms * var(--char-index));
+        animation-play-state: running;
+      }
+      
+      @keyframes slide-in {
+        from {
+          transform: scale(0.4) translateY(80%);
+          opacity: 0;
+        }
+      }
+      .skills {
+        margin-top: 50px;
+        color: #a71552;
+      }
+      
+      .skills svg {
+          color: var(--background);
+          fill: 
+          var(--background);
+        width: calc(100vw/8 - 
+        3rem);
+    height: auto;
+    padding: 2rem;
+      }
+      
+}

@@ -40,31 +40,9 @@ code {
   vertical-align: text-bottom;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #responsive-navbar-nav {
   justify-content: flex-end;
 }
-
-/* .bg-hero-img {
-  background-image: url(./component/assets/hero_bg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
 
 .home-wrapper {
   /* background-color: #23272a; */
@@ -85,4 +63,13 @@ animation-play-state:running;
     transform: scale(0.4) translateY(80%);
     opacity: 0;
   }
+}
+.skills{
+  margin-top: 50px;
+}
+
+.skills svg{
+  width: 5rem;
+  height: 5rem;
+  padding: 2rem;
 }
