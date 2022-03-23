@@ -14,18 +14,6 @@
   font-stretch: normal;
 }
 
-body {
-  margin: 0;
-  font-family: "cubano", sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 [data-theme='light'] {
   --background: #ffffff;
   --text-primary: #111;
@@ -43,6 +31,21 @@ code {
   --text-secondary: grey;
   --accent: darkred;
 }
+
+body {
+  margin: 0;
+  font-family: "cubano", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .main-container{
     .navbar {
         background-color: var(--background) !important;
@@ -99,13 +102,20 @@ code {
       }
       
       .skills svg {
-          color: var(--background);
-          fill: 
-          var(--background);
+          color: var(--text-primary);
         width: calc(100vw/8 - 
         3rem);
     height: auto;
     padding: 2rem;
       }
       
+}
+
+
+.themeChange{
+	cursor: pointer;
+	svg{
+		width: 1.5em;
+		height: 1.5em;
+	}
 }
