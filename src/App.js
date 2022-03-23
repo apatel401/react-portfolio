@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import './index.scss';
 import Header from "./component/Header";
-import useLocalStorage from 'use-local-storage';
+import { ThemeContext } from './component/Provider';
 
 
 function App() {
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
+  const context = useContext(ThemeContext);
   return (
-    <main  className="main-container">
+    <main className="main-container" data-theme={context.theme}>
+      {console.log(context.theme)}
   <Header />
   </main>
+
   );
 }
 

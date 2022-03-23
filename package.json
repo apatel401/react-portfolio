@@ -17,6 +17,7 @@
     "react-scripts": "5.0.0",
     "sass": "^1.49.9",
     "splitting": "^1.0.6",
+    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

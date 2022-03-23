@@ -1,14 +1,17 @@
-import React, {useRef, useState, useEffect} from 'react'
+import React, {useRef, useState, useEffect, useContext} from 'react'
 import Lottie from 'lottie-react' 
 import testAnimation from './assets/skills.json'
 
 import 'splitting/dist/splitting.css'
 import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
+import ToggleButton from 'react-bootstrap/ToggleButton'
+import { ThemeContext } from './Provider'
 
 export default function Home() {
   const [lines, setLines] = useState([])
   const splitRef = useRef(null)
+  const context = useContext(ThemeContext)
 
   useEffect(() => {
     if (splitRef) {
@@ -30,7 +33,11 @@ export default function Home() {
       preserveAspectRatio: "xMidYMid slice"
     }
   };
-
+  
+  function switchTheme(){
+    const newTheme = context.theme === 'dark' ? 'light' : 'dark';
+    context.updateContext({theme: newTheme})
+  }
   
 
     return (
@@ -47,6 +54,7 @@ export default function Home() {
                 On verge of Becoming
                 Fullstack Developer
               </h2>
+              <ToggleButton onClick={switchTheme} >switch theme</ToggleButton>
             </div>
           </div>
         </div>
