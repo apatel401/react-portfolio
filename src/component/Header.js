@@ -10,6 +10,7 @@ import Resume from "./Resume";
 import Home from "./Home";
 import Skills from "./Skills";
 
+
 const Header = () => {
   return (
     <Router>

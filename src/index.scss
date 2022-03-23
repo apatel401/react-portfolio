@@ -26,15 +26,20 @@ code {
     monospace;
 }
 
-:root {
-  --background: #b2becd;
-  --text-primary: #23272a;
+[data-theme='light'] {
+  --background: #ffffff;
+  --text-primary: #111;
+  --hover-primary: rgb(132, 132, 132);
+  --xbackground: #b2becd;
+  --xtext-primary: #ffffff;
   --text-secondary: royalblue;
   --accent: purple;
+  --gray-1:#454e56;
 }
-[data-theme='dark'] {
+ :root{
   --background: #23272a;
   --text-primary: #b2becd;
+  --hover-primary: #fff;
   --text-secondary: grey;
   --accent: darkred;
 }
@@ -45,16 +50,16 @@ code {
         color: var(--text-primary) !important;
         &:hover,
         &:active{
-            color: #fff !important;
+            color: var(--hover-primary) !important;
         }
       }
       .custom-link {
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
-        color: var(--background) !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        color: var(--text-primary) !important;
         &:hover,
         &:active{
-            color: #fff !important;
+            color: var(--hover-primary) !important;
         }
       }
       .custom-link.nav-link svg {
@@ -73,7 +78,7 @@ code {
         height: 100vh;
       }
       h2.splitting {
-        color: var(--background);
+        color: var(--text-primary);
         font-size: 3rem;
       }
       h2.splitting .char {
