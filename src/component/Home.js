@@ -26,7 +26,7 @@ export default function Home() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    rendererSettings: {
+   rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };

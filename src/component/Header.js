@@ -51,6 +51,9 @@ console.log(context);
           </Navbar.Collapse>
       </div>        
       </Navbar>
+      <div className="container-fluid">
+      <div className="row">
+        <div className="col-12">
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -68,6 +71,9 @@ console.log(context);
           <Contact />
         </Route>
       </Switch>
+      </div>
+    </div>
+    </div>
     </Router>
   );
 };
