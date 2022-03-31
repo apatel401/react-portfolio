@@ -42,4 +42,19 @@ export const JobData = [
         "Proficiency in Creative Design Software specifically Photoshop."
       ]
     }
+  ];
+
+  export const School = [
+{
+  "id": "1",
+  "name": "Seneca College",
+  "courseName": "Javascript and Angular",
+  "year": "May 2019 - August 2019"
+},
+{
+  "id": "2",
+  "name": "Gujarat University",
+  "courseName": "Bachelor of Computer Applications",
+  "year": "May 2019 - August 2019"
+}
   ]

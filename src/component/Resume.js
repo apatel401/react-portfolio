@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData } from "./JobData";
+import { JobData, School } from "./JobData";
 
 function Resume() {
   // const [jobs, setJobs] = useState(JobData);
   const [value, setValue] = useState(0);
-const {title, company, duties, dates } = JobData[value];
+  const { title, company, duties, dates } = JobData[value];
   return (
     <div id="resume" className="container mt-5">
       <h1 className="text-center">Resume</h1>
@@ -43,32 +43,49 @@ const {title, company, duties, dates } = JobData[value];
         <FloatingMenu />
       </div>
       <div className="row">
-        <h2 className="">Experience</h2>
+        <div className="col-md-8">
+        <h2 className="text-center">Experience</h2>
         <div className="ex-container">
-          {JobData.map((job, index) => {
-            return (
-                <div className="title-container">
-                  <button key={job.id} id={job.id} 
-                onClick={() => setValue(index)}
-                className={`job-btn ${index === value && 'active-btn'}`}>{job.company}</button>
-                </div>
-                 );
-                })}
-                <div className="details-container">
-                  <h3>{title}</h3>
-                  {dates.split(",").length > 1 ? (
-                    <>
-                      <h4>{dates.split(",")[0]}</h4>
-                      <h4>{dates.split(",")[1]}</h4>
-                    </>
-                  ) : (
-                    <h4>{dates}</h4>
-                  )}
-                  {duties.map((duty) => {
-                    return <p>{duty}</p>;
-                  })}
-                </div>
-           
+          <div className="title-container">
+            {JobData.map((job, index) => {
+              return (
+                <button
+                  key={job.id}
+                  id={job.id}
+                  onClick={() => setValue(index)}
+                  className= {index === value ? "job-btn active-btn" : "job-btn"}>
+                  {job.company}
+                </button>
+              );
+            })}
+          </div>
+          <div className="details-container">
+            <h3>{title}</h3>
+            {dates.split(",").length > 1 ? (
+              <>
+                <p className="dates">{dates.split(",")[0]}</p>
+                <p>{dates.split(",")[1]}</p>
+              </>
+            ) : (
+              <p>{dates}</p>
+            )}
+            {duties.map((duty) => {
+              return <p>{duty}</p>;
+            })}
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+          <h2 className="text-center">Education</h2>
+          <div className="college">
+<h3>{School[0].name}</h3>
+<p><strong>{School[0].courseName}</strong></p>
+<p><strong>{School[0].year}</strong></p>
+<h3>{School[1].name}</h3>
+<p><strong>{School[1].courseName}</strong></p>
+<p><strong>{School[1].year}</strong></p>
+</div>
+
         </div>
       </div>
     </div>

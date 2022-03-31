@@ -1,5 +1,4 @@
 import React, { useContext} from "react";
-// import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel, FcHome} from "react-icons/fc"
@@ -15,7 +14,6 @@ import { ThemeContext } from "./Provider";
 
 const Header = () => {
   const context = useContext(ThemeContext);
-console.log(context);
   function switchTheme() {
     const newTheme = context.theme === "dark" ? "light" : "dark";
     context.updateContext({ theme: newTheme });

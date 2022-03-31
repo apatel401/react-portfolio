@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import './index.scss';
 import Header from "./component/Header";
 import { ThemeContext } from './component/Provider';
 
