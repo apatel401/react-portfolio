@@ -2,12 +2,9 @@
 
 @font-face {
   font-family: "cubano";
-  src: url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff2"),
-    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("woff"),
-    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
-      format("opentype");
+  src: url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+    url("https://use.typekit.net/af/a171c7/00000000000000007735a084/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
   font-display: auto;
   font-style: normal;
   font-weight: 400;
@@ -28,6 +25,7 @@
   --tooltip-margin: 50px;
   --tooltip-arrow-size: 6px;
 }
+
 :root {
   --background: #23272a;
   --text-primary: #b2becd;
@@ -57,22 +55,27 @@ code {
 .main-container {
   .navbar {
     background-color: var(--background) !important;
+
     .navbar-brand {
       color: var(--text-primary) !important;
+
       &:hover,
       &:active {
         color: var(--hover-primary) !important;
       }
     }
+
     .custom-link {
       padding-left: 2rem !important;
       padding-right: 2rem !important;
       color: var(--text-primary) !important;
+
       &:hover,
       &:active {
         color: var(--hover-primary) !important;
       }
     }
+
     .custom-link.nav-link svg {
       vertical-align: text-bottom;
     }
@@ -81,17 +84,21 @@ code {
       justify-content: flex-end;
     }
   }
+
   .home {
     background-color: var(--background);
   }
+
   .home-wrapper {
     /* background-color: #23272a; */
     height: 100vh;
   }
+
   h2.splitting {
     color: var(--text-primary);
     font-size: 3rem;
   }
+
   h2.splitting .char {
     animation: slide-in 0.7s cubic-bezier(0.3, 0, 0.7, 1) both;
     animation-delay: calc(50ms * var(--char-index));
@@ -104,9 +111,11 @@ code {
       opacity: 0;
     }
   }
-  #skills{
-      background-color: var(--background);
+
+  #skills {
+    background-color: var(--background);
   }
+
   .skills {
     margin-top: 50px;
     color: #a71552;
@@ -118,6 +127,7 @@ code {
     height: auto;
     padding: 2rem;
   }
+
   /* Wrapping */
   .Tooltip-Wrapper {
     display: inline-block;
@@ -157,6 +167,7 @@ code {
   .Tooltip-Tip.top {
     top: calc(var(--tooltip-margin) * -1);
   }
+
   /* CSS border triangles */
   .Tooltip-Tip.top::before {
     top: 100%;
@@ -164,38 +175,78 @@ code {
   }
 
   /* Absolute positioning */
-  .Tooltip-Tip.left {
-    left: auto;
-    right: calc(100% + var(--tooltip-margin));
+  .Tooltip-Tip.right {
+    left: calc(100% + var(--tooltip-margin));
     top: 50%;
     transform: translateX(0) translateY(-50%);
   }
+
   /* CSS border triangles */
-  .Tooltip-Tip.left::before {
-    left: auto;
-    right: calc(var(--tooltip-arrow-size) * -2);
+  .Tooltip-Tip.right::before {
+    left: calc(var(--tooltip-arrow-size) * -1);
     top: 50%;
     transform: translateX(0) translateY(-50%);
-    border-left-color: var(--tooltip-background-color);
+    border-right-color: var(--tooltip-background-color);
   }
-  .skill-title{
+
+  .skill-title {
     margin-bottom: 1rem;
   }
-  .rounded-start{
+
+  .rounded-start {
     border-radius: 50%;
   }
-  .card{
+
+  .card {
     background-color: var(--background);
     border: 0;
   }
-  .card-body{
+
+  .card-body {
     padding-left: 0;
   }
+
+  .floating-menu {
+    position: fixed;
+    left: 2vw;
+    top: 50vh;
+    list-style: none;
+    padding-left: 0px;
+    max-width: 5vw;
+    transform: translateY(-50%);
+
+    li {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 0.5rem;
+      border-radius: 50px;
+      color: var(--background);
+      background-color: var(--text-primary);
+      -webkit-appearance: none;
+      border: none;
+
+      &:hover {
+        // transform: translateY(5px) ;
+        transform: scale(1.1);
+      }
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+  }
+
+
 
 }
 
 .themeChange {
   cursor: pointer;
+
   svg {
     width: 1.5em;
     height: 1.5em;
