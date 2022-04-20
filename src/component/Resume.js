@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
 import { JobData, School } from "./JobData";
 
 function Resume() {
   // const [jobs, setJobs] = useState(JobData);
   const [value, setValue] = useState(0);
-  const { title, company, duties, dates } = JobData[value];
+  const { title, duties, dates } = JobData[value];
   return (
     <div id="resume" className="container mt-5">
       <h1 className="text-center">Resume</h1>

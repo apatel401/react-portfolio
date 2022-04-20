@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, useContext } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Lottie from "lottie-react";
 import testAnimation from "./assets/skills.json";
 
@@ -37,6 +37,8 @@ export default function Home() {
   // }
 
   return (
+    <>
+    {console.log(lines)}
     <div className="container-fluid home">
       <div className="container">
         <div className="row">
@@ -57,5 +59,6 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </>
   );
 }
