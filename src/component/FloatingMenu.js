@@ -25,7 +25,7 @@ function FloatingMenu() {
       <Tooltip
         content={
           <>
-            <span>Download Resume</span>
+            <span>LinkedIn</span>
           </>
         }
         direction="right"
@@ -39,7 +39,7 @@ function FloatingMenu() {
       <Tooltip
         content={
           <>
-            <span>Download Resume</span>
+            <span>GitHub</span>
           </>
         }
         direction="right"
@@ -53,7 +53,7 @@ function FloatingMenu() {
       <Tooltip
         content={
           <>
-            <span>Download Resume</span>
+            <span>Mail</span>
           </>
         }
         direction="right"
