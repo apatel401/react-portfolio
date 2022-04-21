@@ -44,7 +44,7 @@ export default function Skills() {
     },
     {
       "id": "2",
-      "skillName" :"HTML5",
+      "skillName" :"CSS3",
       "skillIcon": <SiCss3 />,
       "progress": "98"
     },
@@ -62,146 +62,146 @@ export default function Skills() {
     },
     {
       "id": "5",
-      "skillName" :"HTML5",
+      "skillName" :"Bootstrap",
       "skillIcon": 
       <SiBootstrap />,
       "progress": "95"
     },
     {
       "id": "6",
-      "skillName" :"HTML5",
+      "skillName" :"Gulp",
       "skillIcon":  <SiGulp />,
       "progress": "98"
     },
     {
       "id": "7",
-      "skillName" :"Javascript",
+      "skillName" :"Webpack",
       "skillIcon":  <SiWebpack />,
       "progress": "94"
     },
     {
       "id": "8",
-      "skillName" :"Typescript",
+      "skillName" :"Grunt",
       "skillIcon": <SiGrunt />,
       "progress": "85"
     },
     {
       "id": "9",
-      "skillName" :"HTML5",
+      "skillName" :"React",
       "skillIcon":  <SiReact/>,
       "progress": "98"
     },
     {
       "id": "10",
-      "skillName" :"Javascript",
+      "skillName" :"Angular",
       "skillIcon": <SiAngular />,
       "progress": "94"
     },
     {
       "id": "11",
-      "skillName" :"Typescript",
+      "skillName" :"Vue.js",
       "skillIcon":  <SiVuedotjs/>,
       "progress": "85"
     },
     {
       "id": "12",
-      "skillName" :"HTML5",
+      "skillName" :"Graphql",
       "skillIcon": <SiGraphql />,
       "progress": "95"
     },
     {
       "id": "13",
-      "skillName" :"HTML5",
+      "skillName" :"Git",
       "skillIcon": <SiGit />,
       "progress": "95"
     },
     {
       "id": "14",
-      "skillName" :"HTML5",
+      "skillName" :"Github",
       "skillIcon":  <SiGithub />,
       "progress": "98"
     },
     {
       "id": "15",
-      "skillName" :"Javascript",
+      "skillName" :"Node.js",
       "skillIcon": <SiNodedotjs />,
       "progress": "94"
     },
     {
       "id": "16",
-      "skillName" :"Typescript",
+      "skillName" :"Npm",
       "skillIcon": <SiNpm />,
       "progress": "85"
     },
     {
       "id": "17",
-      "skillName" :"HTML5",
+      "skillName" :"Mongodb",
       "skillIcon": <SiMongodb />,
       "progress": "95"
     },
     {
       "id": "18",
-      "skillName" :"HTML5",
+      "skillName" :"Wordpress",
       "skillIcon": <SiWordpress />,
       "progress": "98"
     },
     {
       "id": "19",
-      "skillName" :"Javascript",
+      "skillName" :"Windowsterminal",
       "skillIcon": <SiWindowsterminal />,
       "progress": "94"
     },
     {
       "id": "20",
-      "skillName" :"Typescript",
+      "skillName" :"W3C",
       "skillIcon": <SiW3C />,
       "progress": "85"
     },
     {
       "id": "21",
-      "skillName" :"HTML5",
+      "skillName" :"Visualstudiocode",
       "skillIcon": <SiVisualstudiocode />,
       "progress": "98"
     },
     {
       "id": "22",
-      "skillName" :"Javascript",
+      "skillName" :"Sass",
       "skillIcon": <SiSass />,
       "progress": "94"
     },
     {
       "id": "23",
-      "skillName" :"Typescript",
+      "skillName" :"Shopify",
       "skillIcon": <SiShopify />,
       "progress": "85"
     },
     {
       "id": "24",
-      "skillName" :"HTML5",
+      "skillName" :"Tailwindcss",
       "skillIcon": <SiTailwindcss />,
       "progress": "95"
     },
     {
       "id": "25",
-      "skillName" :"HTML5",
+      "skillName" :"Php",
       "skillIcon": <SiPhp />,
       "progress": "95"
     },
     {
       "id": "26",
-      "skillName" :"HTML5",
+      "skillName" :"Jquery",
       "skillIcon": <SiJquery />,
       "progress": "95"
     }, 
     {
       "id": "27",
-      "skillName" :"HTML5",
+      "skillName" :"Json",
       "skillIcon": <SiJson />,
       "progress": "95"
     },
     {
       "id": "28",
-      "skillName" :"HTML5",
+      "skillName" :"Python",
       "skillIcon": <SiPython />,
       "progress": "95"
     }  
