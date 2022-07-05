@@ -65,6 +65,7 @@ code {
 .main-container {
   background-color: var(--background);
   color: var(--text-primary);
+  min-height: 100vh;
 
   .navbar {
     background-color: var(--dark-bg) !important;
