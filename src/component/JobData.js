@@ -57,4 +57,47 @@ export const JobData = [
   "courseName": "Bachelor of Computer Applications",
   "year": "May 2019 - August 2019"
 }
+  ];
+  export const CompDisplay = [
+    {
+      "id": "1",
+      "name": "multiple-choice",
+    },
+    {
+      "id": "2",
+      "name": "multiple-choice-checkbox",
+    },
+    {
+      "id": "3",
+      "name": "Image hotspot",
+    },
+    {
+      "id": "4",
+      "name": "Flashcards",
+    },
+    {
+      "id": "5",
+      "name": "matching widget",
+    },
+    {
+      "id": "6",
+      "name": "cabinat content",
+    },
+    {
+      "id": "7",
+      "name": "flowchart",
+    },
+    {
+      "id": "8",
+      "name": "sorting table",
+    },
+    {
+      "id": "9",
+      "name": "image-juxtaposition",
+    },
+    {
+      "id": "10",
+      "name": "compound interest calculator",
+    },
+
   ]

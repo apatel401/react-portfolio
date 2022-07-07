@@ -293,3 +293,93 @@ code {
     height: 1.5em;
   }
 }
+
+
+.main-card-wrapper {
+  display: grid;
+  grid-template-columns: minmax(150px, 300px) minmax(150px, 300px) minmax(150px, 300px);
+  justify-content: center;
+  justify-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  .card {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 260px;
+    height: 260px;
+    border-radius: 23px;
+    overflow: hidden;
+    text-decoration: none;
+    box-shadow: 5px 5px 15px rgb(25 32 71 / 25%);
+    transition: 0.2s ease-in-out all, 0.3s ease-in-out box-shadow;
+    background: white;
+    &:hover {
+      transition: 0.2s transform ease-in-out;
+      transform: scale(1.015);
+      .card-overlay, .card-header {
+        transform: translateY(0);
+    }
+  }
+}
+.card-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+
+  .card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 1.5em 2em;
+    border-radius: 5px 0 0 0;
+    background-color: #fff;
+    transform: translateY(-100%);
+    transition: 0.2s ease-in-out;
+    .card-title {
+      font-size: 1em;
+      margin: 0 0 0.3em;
+      color: #192047;
+      font-weight: bold;
+  }
+}
+.card-readnow {
+  padding: 0em 1em 1em 1em;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+  font-size: small;
+  color: #192047;
+}
+
+}
+
+}
+
+.component-btn{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  li{
+    margin: 5px 10px;
+    button{
+      background-color: transparent;
+      border: 0;
+      color: var(--text-primary);
+      border-bottom: 2px solid var(--text-primary);
+    }
+  }
+}
