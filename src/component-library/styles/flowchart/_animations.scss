@@ -1,0 +1,135 @@
+.flow-coolDown {
+    animation: matched-wrong 2000ms ease-in-out both;
+    background-image: url('../../img/flowchart/incorrect_icon.svg');
+    background-repeat: no-repeat;
+    background-position: right 3% center;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+      animation: no-shake 2000ms both;
+    }
+}
+
+// Cards icons in cooldown
+// Note: cooldown class does not get removed until next user event
+.matched-icon-cooldown {
+    animation: matched-icon-wrong 2000ms 1 forwards;
+}
+
+@keyframes matched-icon-wrong {
+    0% {
+        opacity: 1;
+        display: block;
+    }
+    75% {
+        opacity: 1;
+        display: block;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes matched-wrong {
+
+    0% {
+        outline: none;
+        pointer-events: none;
+        border: none;
+        box-shadow: 0 0 0 2px $Razzmatazz;
+        box-sizing: border-box;
+        transform: rotate(0deg);
+    }
+
+    15% { transform: rotate(-4deg); }
+
+    30% { transform: rotate(4deg); }
+
+    45% { transform: rotate(-4deg); }
+
+    60% { transform: rotate(4deg); }
+
+    75% {
+        transform: rotate(0deg);
+        outline: none;
+        pointer-events: none;
+        border: none;
+        box-shadow: 0 0 0 2px $Razzmatazz;
+        box-sizing: border-box;
+    }
+
+    100% {
+        outline: none;
+        pointer-events: none;
+        box-sizing: border-box;
+        border: none;
+        box-shadow: 0 0 0 2px $Razzmatazz;
+    }    
+
+}
+
+@keyframes no-shake {
+    0% {
+        outline: none;
+        pointer-events: none;
+        border: none;
+        box-shadow: 0 0 0 2px $Razzmatazz;
+        box-sizing: border-box;
+    }
+
+    75% {
+        outline: none;
+        pointer-events: none;
+        border: none;
+        box-shadow: 0 0 0 2px $Razzmatazz;
+        box-sizing: border-box;
+    }
+
+    100% {
+        outline: none;
+        pointer-events: none;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+}
+
+.matched-correct {
+    animation: matched-merging 0ms linear both;
+    pointer-events: none;
+    background-image: url('../../img/flowchart/correct_icon.svg');
+    background-repeat: no-repeat;
+    background-position: right 3% center;
+    text-align: left;
+
+    @media screen and (prefers-reduced-motion: reduce) {
+        animation: unset;
+        box-shadow: 0 0 0 2px $robins-egg-blue;
+    }
+}
+
+@keyframes matched-merging {
+    0% {
+        box-shadow: 0 0 0 2px $robins-egg-blue;
+        background-image: none;
+    }
+    100% {
+        box-shadow: 0 0 0 2px $robins-egg-blue;
+    }
+}
+
+.positionReplace {
+    -webkit-animation: fadeIn 1500ms ease-in-out;
+    animation: fadeIn 1500ms ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}  

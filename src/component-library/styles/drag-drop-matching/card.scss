@@ -1,0 +1,84 @@
+@mixin styles {
+  $white: #ffffff;
+  $grey: #ECECEC;
+  $tfo_purple: #932784;
+  $hover_outline: #BF7DB7;
+  $hover_fill: #7B0F6C;
+  $disabled_fill: #D4A9CE;
+  $tfo_dark_purple: #3b144d;
+  $tfo_black: #414042;
+
+  .matching-first-col .card-wrapper .matching-card {
+    width: 100%;
+    border: 2px solid $tfo_purple;
+    background: $white;
+    height: 90px;
+    padding: 0 20px;
+    background: $white;
+    border-radius: 20px;
+    color: $tfo_black;
+    text-align: start;
+
+    // Hovered card
+    &:not(.matched-correct, .disabled-effect) {
+      &:not(.selected) {
+        &:hover {
+          outline: 2px;
+          box-shadow: 0 0 0 4px $hover_outline;
+        }
+      }
+    }
+
+    // Focused card
+    &:focus:not(.selected) {
+      outline: 2px;
+      box-shadow: 0 0 0 3px white, 0 0 0 5px $tfo_purple;
+    }
+
+    span {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  .matching-second-col .card-wrapper .matching-card {
+    width: 100%;
+    border: 2px dashed $tfo_purple;
+    background: $grey;
+    height: 90px;
+    padding: 0px 10px 0px 20px;
+    border-radius: 20px;
+    color: $tfo_black;
+    text-align: start;
+
+    &:hover {
+      border: 2px solid $tfo_purple;
+      box-shadow: 0 0 0 4px $hover_outline;
+    }
+    &:focus {
+      outline: 2px;
+      border: 2px solid $tfo_purple;
+      box-shadow: 0 0 0 3px white, 0 0 0 5px $tfo_purple;
+    }
+
+    span {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  @media (min-width: 1025px) {
+    .matching-first-col .card-wrapper .matching-card,
+    .matching-second-col .card-wrapper .matching-card {
+      padding: 0px 20px 0px 30px;
+    }
+  }
+  @media (max-width: 576px) {
+    .matching-first-col .card-wrapper .matching-card,
+    .matching-second-col .card-wrapper .matching-card {
+      height: 62px;
+      span {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "matchingQuestion": "Without Image: Te souviens-tu du rôle que jouent les composantes principales dans le fonctionnement d'un ordinateur?",
+  "matchingImage": [{"src": "", "alt": ""}],
+  "successMessage": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
+  "items": [
+    {
+      "first": "Lorem Ipsum question one",
+      "second": "1Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    },
+    {
+      "first": "Lorem Ipsum question two",
+      "second": "2Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    },
+    {
+      "first": "Lorem Ipsum question three",
+      "second": "3Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    },
+    {
+      "first": "Lorem Ipsum question four",
+      "second": "4Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    },
+    {
+      "first": "Lorem Ipsum question five",
+      "second": "5Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    }
+  ],
+  "iloStartLink": "Enter interactive activity Matching or press link to skip to end of activity.",
+  "iloStartText": "Beginning of Matching interactive activity.",
+  "iloEndLink": "Press link to return to start of interactive activity Matching.",
+  "iloEndText": "End of Matching interactive activity."
+}

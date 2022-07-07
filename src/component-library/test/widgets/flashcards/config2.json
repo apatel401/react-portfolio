@@ -1,0 +1,26 @@
+{
+	"items": [
+		{
+			"headerValueFront": "Front of Card Header",
+			"headerValueBack": "Back of Card Description that runs on two lines"
+		},
+		{
+			"imgFront": [
+				"playing.png",
+				"A very windy day. Strong winds are blowing, and trees are swaying to the side."
+			],
+			"headerValueBack": "Description",
+			"textValueBack": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt neque sem"
+		},
+		{
+			"imgFront": [
+				"programmer.png",
+				"A very windy day. Strong winds are blowing, and trees are swaying to the side."
+			],
+			"imgBack": [
+				"flashcard_map_example_v2.svg",
+				"There is a bar graph titled, “Pets at Home.” The x-axis (the horizontal axis) is titled, “Type of Pet.” The y-axis (the vertical axis) is titled, “Number of Students.” The types of pets listed across the x-axis are Dog, Cat, Bird, Fish, and Other. The y-axis goes up by ones from 0 to 8. The Dog bar goes up to 5. The Cat bar goes up to 3. The Bird bar goes up to 2. The Fish bar goes up to 1. The Other bar goes up to 1. There are arrows to each section telling what it is about. The y-axis title tells us what is being counted. The scale tells the amount of data. The x-axis title tells what we are collecting data about. Categories tell specific type of data. Bars show how much data has been collected. Title tells what the graph is about."
+			]
+		}
+	]
+}

@@ -1,0 +1,55 @@
+
+{
+    "id":2,
+    "instructions":"Te souviens-tu du rôle que jouent les composantes principales dans le fonctionnement d’un ordinateur? ",
+    "instructionImg": ["", ""],
+    "additionalInstructionsForValidationFalse": "Glisse et dépose les composantes à leur définition respective puis sélectionne le bouton SOUMETTRE. ",
+    "validation": true,
+    "successMessage": "C'est exact! ",
+    "successMessageComments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ",
+    "iloStartText": "Beginning of sorting table 1 interactive activity.",
+    "iloEndText": "End of sorting table 1 interactive activity.",
+    "iloStartLink": "Enter interactive activity Sorting Table 2 or press link to skip to end of activity.",
+    "iloEndLink": "Press link to return to start of interactive activity Sorting Table 2.",
+    "cards":[
+    {
+        "text": "Lorem ipsom dolor sit amet(1)",
+        "category_id": 1
+    },
+    {
+        "text": "Lorem ipsom dolor sit amet(1)",
+        "category_id": 1
+    },
+    {
+        "text": "Lorem ipsom dolor sit amet(1)",
+        "category_id": 1
+    },
+    {   "text": "Lorem ipsom dolor sit amet(2)",
+        "category_id": 2
+    },
+    {   "text": "Lorem ipsom dolor sit amet(2)",
+        "category_id": 2
+    },
+    {   "text": "Lorem ipsom dolor sit amet(3)",
+        "category_id": 3 
+    },
+    {   "text": "Lorem ipsom dolor sit amet(3)",
+        "category_id": 3
+    }
+    ],
+    
+    "categories": [
+        {
+            "title": "Lorem ipsom dolor sit amet(1)",
+            "id": 1
+        },
+        {
+            "title": "Lorem ipsom dolor sit amet(2)",
+            "id": 2
+        },
+        {
+            "title": "Lorem ipsom dolor sit amet(3)",
+            "id": 3
+        }
+    ]
+}       

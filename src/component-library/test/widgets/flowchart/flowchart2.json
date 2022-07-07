@@ -1,0 +1,33 @@
+{  
+    "iloStartText": "Beginning of Flowchart 2 interactive activity.",
+    "iloEndText": "End of Flowchart 2 interactive activity.",
+    "iloStartLink": "Enter interactive activity Flowchart 2 or press link to skip to end of activity.",
+    "iloEndLink": "Press link to return to start of interactive activity Flowchart 2.",
+    "freeplay": false,
+    "question": "Te souviens-tu du rôle que jouent les composantes principales dans le fonctionnement d’un ordinateur?",
+    "instruction": "Glisse et dépose les composantes à leur définition respective puis sélectionne le bouton SOUMETTRE.",
+    "instructionImage": [
+        "placeholder.png",
+        "LXD to provide detailed description for image alt tag"
+    ],
+    "dropboxText": "Déposer ici",
+    "successFeedback": "C'est exact!",
+    "successFeedbackMessage": "Un ordinateur est compose de matériels (processeur, BIOS, alimentation, électrique, mémoire, etc.) et de logiciels (système d'exploitation, logiciel de traitement de texte, etc.).",
+    "options": [{
+            "textValue": "I'm a little teapot "
+        },
+        {
+            "textValue": "short and stout"
+        },
+        {
+            "textValue": "here is my handle"
+
+        },
+        {
+            "textValue": "here is my spout"
+        },
+        {
+            "textValue": "thats what I'm all about"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+  "id":1,
+  "imageSrc": "../assets/img/abc.png",
+  "imageAlt": "CPU skeleton view with its inner parts visible",
+  "title": "",
+  "instructions": "Sélectionne les icônes pour en savoir plus les composantes internes d’un ordinateur.",
+  "highlightColor": "#932784",
+  "iloStartText": "Beginning of image-hotspots activity titled 'Maslow's Hierarchy of Needs'.",
+  "iloStartLink": "The interactive activity is not optimized for non-visual users. Press link to skip to end of activity.",
+  "iloEndText": "End of image-hotspots activity",
+  "iloEndLink": "The interactive activity is not optimized for non-visual users. Press link to skip to start of activity.",
+  "areas": [
+    {
+      "name": "Heading 25 characters max",
+      "areaAlt": "lorem ipsum alt",
+      "areaDetails": ["If there is a heading and text only, the max character limits on texts are two hundreds and fifty (250) character limits. Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. In in enim a arcu imperdiet malesuada. In in enim a ar", "", ""],
+      "shape": "circle",
+      "coords": "248,348,40",
+      "areaIndex": "1"
+    },
+    {
+      "name": "Heading 25 characters max",
+      "areaAlt": "Trapezoid section, showcasing the seconed largest area on the bottom of the pyramid.",
+      "areaDetails": ["If there is a heading, image, and text, then the max character limits are one hundred and fifty (150). Nam quis nulla. Integer malesuada. In in enim a", "../assets/img/square_image.png", "Square image alt"],
+      "shape": "circle",
+      "coords": "231,740,40",
+      "areaIndex": "2"
+    },
+    {
+      "name": "Nam quis nulla Inte",
+      "areaAlt": "Trapezoid section, showcasing the third largest area in the middle of the pyramid.",
+      "areaDetails": ["Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean idmalesuada. In in enim metus id velit ullamcorperr. In in enim a. ", "", ""],
+      "shape": "circle",
+      "coords": "800,227,40",
+      "areaIndex": "3"
+    },
+    {
+      "name": "Esteem Needs",
+      "areaAlt": "Trapezoid section, showcasing the second smallest area on top of the pyramid.",
+      "areaDetails": ["Nam quis nulla. Integer malesuada. In in enim a arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus molestie, porttitor ut, iaculis quis", "../assets/img/square_image.png", "stock image alt"],
+      "shape": "circle",
+      "coords": "444,735,40",
+      "areaIndex": "4"
+    },
+   
+    {
+      "name": "Self-actualization Needs",
+      "areaAlt": "Triangle section, showcasing the smallest area on top of the pyramid.",
+      "areaDetails": ["These include achieving one’s full potential, including any creative activities.","", ""],
+      "shape": "circle",
+      "coords": "448,506,40",
+      "areaIndex": "5"
+    },
+    {
+      "name": "Basic Needs",
+      "areaAlt": "Area on the right side of the pyramid, encompassing Safety and Physiological needs, at the bottom part.",
+      "areaDetails": ["Basic needs contain our physiological and safety needs. These are the first needs that influence behaviour.","",  ""],
+      "shape": "circle",
+      "coords": "786,487,40",
+      "areaIndex": "6"
+    },
+    {
+      "name": "Basic Needs",
+      "areaAlt": "Area on the right side of the pyramid, encompassing Safety and Physiological needs, at the bottom part.",
+      "areaDetails": ["Basic needs contain our physiological and safety needs. These are the first needs that influence behaviour.","",  ""],
+      "shape": "circle",
+      "coords": "519,241,40",
+      "areaIndex": "7"
+    }
+]
+}

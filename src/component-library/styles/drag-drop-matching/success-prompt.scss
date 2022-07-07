@@ -1,0 +1,87 @@
+@mixin styles {
+    .success-on {
+        .border-arrow {
+            &:before {
+                content: "";
+                width: 0; 
+                height: 0; 
+                border-right: 20px solid transparent;
+                border-left: 20px solid transparent;
+                border-bottom: 20px solid #00BFDF;
+            }
+        }
+        .success-border-top {
+            width: 100%;
+            height: 20px;
+            background-color: transparent;
+        }
+        .success-container {
+            border-top: 20px solid #00BFDF;
+            margin-left: -65px;
+            margin-right: -65px;
+            padding: 40px 65px;
+
+            .success-message {
+                .success-title {
+                    display: flex;
+                    margin-bottom: 30px;
+                    .success-checkmark {
+                        content: url("../../img/drag-drop-matching/matching_checkmark.svg");
+                        margin: auto 0;
+                        margin-right: 30px;
+                    }
+                    h3 {
+                        margin: auto 0 !important;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        @media (min-width: 1025px) {
+            .success-container {
+                margin-left: -10%;
+                margin-right: -10%;
+                padding: 40px 10%;
+                .success-message {
+                    .success-title {
+                        h3 {
+                            font-size: 27px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 575px) {
+            // .border-arrow {
+            //     height: 0;
+            // }
+            .success-border-top {
+                height: 15px;
+            }
+            .success-container {
+                margin-left: -40px;
+                margin-right: -40px;
+                border-top: 15px solid #00BFDF;
+                padding: 30px 40px;
+                .success-message {
+                    .success-title {
+                        display: flex;
+                        margin-bottom: 22px;
+                        .success-checkmark {
+                            content: url("../../img/drag-drop-matching/matching_checkmark_mobile.svg");
+                            margin: auto 0;
+                            margin-right: 22px;
+                        }
+                        h3 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .success-off {
+        display: none;
+    }
+}

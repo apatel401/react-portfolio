@@ -1,0 +1,58 @@
+.flowchart-container-tfo {
+  @import 'variables';
+  @import 'success';
+  @import 'card';
+  @import 'answers';
+  @import 'animations';
+  @import 'instructions';
+
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .screen-reader-only {
+    position: absolute !important; /* Required to force outside the DOM flow */
+    height: 1px;
+    width: 1px; /* Nearly collapsed */
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE 7+ only support clip without commas */
+    clip: rect(1px, 1px, 1px, 1px); /* All other browsers */
+  }
+  
+  .selected {
+    outline: none !important;
+    border: 2px solid $royal-health !important;
+    // box-shadow: 0 0 0 2px $royal-health, 0 0 0 6px $white, 0 0 0 8px $royal-health !important;
+    box-shadow: 0 0 0 2px $royal-health !important;
+
+    &:hover {
+      box-shadow: 0 0 0 2px $royal-health, 0 0 0 6px $viola !important;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 2px $royal-health, 0 0 0 6px $white, 0 0 0 8px $royal-health !important;
+    }
+  }
+
+  .instructionalSection,
+  .board-1,
+  .answerBoard {
+    padding: 10px 8%;
+
+    @media (max-width: 576px) {
+      padding: 10px 40px;
+    }
+
+    @media (max-width: 1024px) {
+      padding: 10px 65px;
+    }
+  }
+}
+
+

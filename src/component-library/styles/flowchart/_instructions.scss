@@ -1,0 +1,70 @@
+.instruction-container {
+    .instructionalSection {
+        text-align: center;
+        background-color: $white;
+    
+        .question {
+            font-size: 27px;
+            color: $ship-gray;
+            text-align: left;
+            padding-bottom: 30px;
+
+            @media (max-width: 1024px) {
+                font-size: 24px;
+            }
+    
+            @media (max-width: 576px) {
+                font-size: 18px;
+                padding-bottom: 22px;
+            }
+        }
+    
+        .instruction {
+            font-size: 18px;
+            color: $ship-gray;
+            font-style: italic;
+            text-align: left;
+    
+            @media (max-width: 576px) {
+                font-size: 14px;
+            }
+        }
+    
+    }
+
+    .instruction-image-container {
+        margin: 0 8%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+
+        @media (max-width: 1024px) {
+            margin: 0 65px; 
+        }
+
+        @media (max-width: 576px) {
+            padding-top: 15px;
+            padding-bottom: 30px;
+        }    
+        
+        .instruction-image {
+            display: block;
+            height: auto;
+            width: auto;
+            max-height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+
+            @media (max-width: 800px) {
+                width: 100%;
+            }
+    
+            @media (max-width: 576px) {
+                margin-left: 0;
+                margin-right: 0;
+                max-height: unset;
+                height: 100%;
+            }
+        }
+    }
+    
+}

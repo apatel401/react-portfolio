@@ -1,0 +1,53 @@
+@mixin styles {
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    background: #fff;
+    max-width: 100%;
+    padding: 40px 40px 60px 8%;
+    @media screen and (max-width: 1025px) {
+      padding: 40px 65px;
+		}
+    
+    @media only screen and (max-width: 575px) {
+      padding: 30px 40px;
+    }
+
+  .image-container {
+    text-align: center;
+    img {
+      max-width: 100%;
+      height: auto;
+      padding: 0;
+      max-height: 400px;
+      @media only screen and (max-width: 575px) {
+        max-height: 200px;
+      }
+    }
+  }
+
+  .question {
+    font-size: 27px;
+    line-height: 40px;
+    font-weight: 600;
+    // margin-bottom: 30px;
+    @media screen and (max-width: 575px) {
+      font-size: 16px;
+    line-height: 24px;
+    }
+  }
+  .instruction{
+    margin-top: 30px;
+    font-style: italic;
+    @media screen and (max-width: 575px){
+      margin-bottom: 22px !important;
+      margin-top: 22px !important;
+    }
+  }
+  }
+.options-wrapper:focus,
+.options-wrapper:hover {
+  outline: none;
+}
+}

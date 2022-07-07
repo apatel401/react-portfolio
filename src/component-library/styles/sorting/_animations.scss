@@ -1,0 +1,83 @@
+@mixin styles {
+  // Keyframes
+  @keyframes matched-icon-try-again {
+    0% {
+      opacity: 1.0;
+      display: block;
+    }
+    75% {
+      opacity: 1.0;
+      display: block;
+    }
+    100% {
+      opacity: 0.0;
+      display: none;
+    }
+  }
+
+  @keyframes matched-wrong {
+    0% {
+      outline: none;
+      pointer-events: none;
+      box-sizing: border-box;
+      transform: rotate(0deg);
+    }
+
+    15% { transform: rotate(-4deg); }
+    30% { transform: rotate(4deg); }
+    45% { transform: rotate(-4deg); }
+    60% { transform: rotate(4deg); }
+    75% { transform: rotate(0deg); }
+  
+    75% {
+      outline: none; 
+      pointer-events: none;
+      box-sizing: border-box;
+    }
+
+  99% {
+    outline: none;
+    pointer-events: none;
+    box-sizing: border-box;
+  }    
+}
+
+  @keyframes matched-wrong-no-shake {
+    0% {
+      outline: none;
+      pointer-events: none;
+      box-sizing: border-box;
+    }
+
+    100% {
+      outline: none;
+      pointer-events: none;
+      box-sizing: border-box;
+    }
+  }
+
+  // Styles related to animations
+
+  // Animate incorrect cards/categories
+  .try-again {
+    animation: matched-wrong 2000ms ease-in-out;
+    animation-fill-mode: both;
+    border: 2px solid #ED1556 !important;
+    box-shadow: none !important;
+      
+    @media screen and (prefers-reduced-motion: reduce) {
+      animation-fill-mode: both;
+    }
+  }
+
+  .redLine{
+    border: 2px solid #ED1556 !important;
+    box-shadow: none !important;
+  }
+
+  // Toggle appearance of exclamation point when incorrect answer attempted
+  .try-again-icon {
+    animation: matched-icon-try-again 2000ms ease-in-out;
+    animation-fill-mode: both;
+  }
+}

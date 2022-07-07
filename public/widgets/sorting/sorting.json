@@ -1,0 +1,49 @@
+
+{
+    "id":1,
+    "instructions":"Te souviens-tu du rôle que jouent les composantes principales dans le fonctionnement d’un ordinateur? ",
+    "instructionImg": ["../assets/img/placeholder.png", "no alt"],
+    "additionalInstructionsForValidationFalse": "Glisse et dépose les composantes à leur définition respective puis sélectionne le bouton SOUMETTRE.",
+    "validation": true,
+    "successMessage": "C'est exact!",
+    "successMessageComments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "iloStartText": "Beginning of sorting table 1 interactive activity.",
+    "iloEndText": "End of sorting table 1 interactive activity.",
+    "iloStartLink": "Enter interactive activity Sorting Table 1 or press link to skip to end of activity.",
+    "iloEndLink": "Press link to return to start of interactive activity Sorting Table 1.",
+    "cards":[
+    {
+        "text": "Toronto",
+        "category_id": 1
+    },
+    {
+        "text": "This is a very long Country name",
+        "category_id": 2
+    },
+    {
+        "text": "France",
+        "category_id": 2
+    },
+    {   "text": "Saturn",
+        "category_id": 3
+    },
+    {   "text": "Mars",
+        "category_id": 3
+    }
+    ],
+    
+    "categories": [
+        {
+            "title": "Cities",
+            "id": 1
+        },
+        {
+            "title": "Countries",
+            "id": 2
+        },
+        {
+            "title": "Planets",
+            "id": 3
+        }
+    ]
+}       

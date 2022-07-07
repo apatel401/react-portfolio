@@ -1,0 +1,132 @@
+@mixin styles {
+  .sorting-tfo-card {
+      display: flex;
+      align-items: center;
+      text-align: left;
+      position: relative;
+      width: 210px;
+      min-height: 60px;
+      margin: 0.5em;
+      background-clip: border-box;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+      padding: 14px 45px 14px 14px;
+      color: #000000;
+      background: white;
+      border: 2px dashed #932784;
+      font: normal 18px/27px Montserrat;
+      cursor: pointer;
+      border-radius: 20px;
+      opacity: 1;
+      &:hover{
+          border: 2px solid #932784;
+          box-shadow: 0 0 0 4px #bf7db7;
+      }
+      &:focus{
+          outline: 2px;
+          box-shadow: 0 0 0 4px #f8f8f8, 0 0 0 6px #932784;
+      }
+
+      @media (max-width: 490px){
+        font: normal 14px/21px Montserrat;
+      }
+
+      .sorting-tfo-remove{
+        position: absolute;
+        top: -16px;
+        right: -19px;
+        height: 40px;
+        width: 40px;
+        background-color: #932784;
+        border: none;
+        border-radius: 20px;
+        background-image: url("../../img/sorting/closeIcon.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+      }
+      
+      img {
+        height: auto;
+        width: 100%;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+      }
+
+      &.selected-card{
+        box-shadow: 0 0 0 2px #932784;
+        &:hover{
+          border: 2px solid #932784;
+          box-shadow: 0 0 0 2px #932784, 0 0 0 4px #bf7db7, 0 0 0 6px #bf7db7;
+          cursor: pointer;
+        }
+        &:focus{
+          outline: 2px;
+          box-shadow: 0 0 0 2px #932784, 0 0 0 4px #f8f8f8, 0 0 0 6px #932784;
+        }
+      }
+
+      &.selected-category{
+        box-shadow: 0 0 0 2px #932784;
+        border: 2px solid #932784;
+        &:hover{
+          border: 2px solid #932784;
+          box-shadow: 0 0 0 2px #932784, 0 0 0 4px #bf7db7, 0 0 0 6px #bf7db7;
+          cursor: pointer;
+        }
+        &:focus{
+          outline: 2px;
+          box-shadow: 0 0 0 2px #932784, 0 0 0 4px #f8f8f8, 0 0 0 6px #932784;
+        }
+      }
+
+      .validation {
+        &.success-icon {
+          background-image: url('../../img/sorting/correctIcon.svg');
+          background-repeat: no-repeat;
+          background-position: right;
+          border-radius: 50%;
+          position: absolute;
+          right: 10px;
+          @media (max-width: 490px){
+            background-image: url('../../img/sorting/correctIconSmaller.svg');
+            left: 10rem;
+          }
+        }
+
+        &.try-again-icon {
+          background-image: url("../../img/sorting/incorrectIcon.svg");
+          background-repeat: no-repeat;
+          background-position: right;
+          border-radius: 50%;
+          position: absolute;
+          right: 10px;
+          @media (max-width: 490px){
+            background-image: url('../../img/sorting/incorrectIconSmaller.svg');
+            left: 10rem;
+          }
+        }
+    }
+  }
+  .duplicate-shadow button, .duplicate-shadow div {
+    background-color: #ECECEC;
+    color: transparent;
+    border: 2px solid #ECECEC;
+    top: 0px;
+  }
+
+  .duplicate-shadow-in-process button {
+      position: absolute;
+  }
+
+  .cards-array-section button {
+    border: 2px solid #932784;
+  }
+  .drop-here {
+    background: #ECECEC 0% 0% no-repeat padding-box;
+    font: normal 18px/27px Montserrat;
+    @media (max-width: 490px){
+      font: normal 14px/21px Montserrat;
+    }
+  }
+}
