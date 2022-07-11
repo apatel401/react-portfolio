@@ -368,16 +368,31 @@ code {
 }
 
 }
-
+.comp-wrapper{
+display: flex;
+ul{
+  padding-left: 1rem;
+}
+}
+.component-space{
+  flex: 3;
+}
 .component-btn{
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
+ 
   li{
-    margin: 5px 10px;
     button{
       background-color: transparent;
       border: 0;
+      color: var(--text-primary);
+      font-family: var(--heading-font);
+      
+    }
+    .active{
       color: var(--text-primary);
       border-bottom: 2px solid var(--text-primary);
     }

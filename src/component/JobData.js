@@ -65,7 +65,7 @@ export const JobData = [
     },
     {
       "id": "2",
-      "name": "multiple-choice-checkbox",
+      "name": "multiple choice checkbox",
     },
     {
       "id": "3",
@@ -93,11 +93,11 @@ export const JobData = [
     },
     {
       "id": "9",
-      "name": "image-juxtaposition",
+      "name": "Image juxtaposition",
     },
     {
       "id": "10",
-      "name": "compound interest calculator",
+      "name": "Interest calculator",
     },
 
   ]
