@@ -81,7 +81,7 @@ export const JobData = [
     },
     {
       "id": "6",
-      "name": "cabinat content",
+      "name": "Content cabinet",
     },
     {
       "id": "7",
