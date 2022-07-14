@@ -1,4 +1,5 @@
-import React, { useState, useContext, useEffect } from 'react';
+/* eslint-disable eqeqeq */
+import React, { useState, useContext } from 'react';
 import { FlowchartContext } from './Provider';
 // import resources from '../resources'
 
@@ -8,7 +9,6 @@ function Card(props) {
 
     let selectedCard;
     let target;
-    let answerBoard;
     let placedCorrectly = false;
 
     const [isMatchCorrect, setIsMatchCorrect] = useState(null)
@@ -50,7 +50,6 @@ function Card(props) {
 
             selectedCard = this.selectedElement;
             target = this.target;
-            answerBoard = props.inputRef.current.children[2].children;
 
             // If one of the cards is in motion stop the user from being able to select another card
             for (var i = 0; i < this.boardRef.length; i++) {
@@ -106,6 +105,7 @@ function Card(props) {
                         try {
                             if (e.key === 'Enter' || e.key === ' ') {
                                 for (let i = 0; i < this.boardRef.length; i++) {
+                                    // eslint-disable-next-line eqeqeq
                                     if (this.boardRef[i].classList == 'flowchart-card') {
                                         this.boardRef[i].focus()
                                         break;
@@ -199,6 +199,7 @@ function Card(props) {
                     this.target.classList.add('selected');
                 }
             } else {
+                // eslint-disable-next-line no-unused-expressions
                 ''
             }
         }

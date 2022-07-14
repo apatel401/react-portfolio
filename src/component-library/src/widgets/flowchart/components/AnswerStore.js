@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React, { useEffect, useContext } from 'react';
 import { FlowchartContext } from './Provider';
 

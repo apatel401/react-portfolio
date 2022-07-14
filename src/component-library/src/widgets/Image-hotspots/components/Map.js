@@ -161,7 +161,8 @@ function Map() {
         // drawPlus(area);
         const coord = parseCoord(area.coords);
 
-        area.shape == "circle"
+        // eslint-disable-next-line no-unused-expressions
+        area.shape === "circle"
           ? drawCircle(area, coord) && drawPlus(area)
           : null;
 

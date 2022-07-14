@@ -23,6 +23,7 @@ const Card = ({
 		if (context.flipped !== keyId) {
 			setisFlipped(false);
 		}
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [context.flipped]);
 
 	function flip(e, keydownEvent) {
@@ -43,6 +44,7 @@ const Card = ({
 		setTimeout(() => {
 			context.updateContext({ announcements: "current" });
 		}, 100);
+		// eslint-disable-next-line no-unused-expressions
 		keydownEvent
 			? !isFlipped
 				? currentCardRefBack.current.focus()
@@ -64,22 +66,23 @@ const Card = ({
 	useEffect(() => {
 		if (context.resetFlipped) setisFlipped(false);
 		context.updateContext({ isFrontCard: true });
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [context.resetFlipped]);
 
 	function setClassNameFront() {
 		if (
-			(imageFront != undefined && altFront != undefined) ||
-			(imageFront != undefined && headerFront != undefined)
+			(imageFront !== undefined && altFront !== undefined) ||
+			(imageFront !== undefined && headerFront !== undefined)
 		) {
 			return "content-container-all";
-		} else if (imageFront == undefined && altFront === undefined && headerFront != undefined) {
+		} else if (imageFront ===undefined && altFront === undefined && headerFront !== undefined) {
 			return "content-container-noImg-noText";
 		} else if (
-			(imageFront == undefined && altFront != undefined) ||
-			(imageFront == undefined && headerFront != undefined)
+			(imageFront ===undefined && altFront !== undefined) ||
+			(imageFront === undefined && headerFront !== undefined)
 		) {
 			return "content-container-noImg";
-		} else if (altFront == undefined && imageFront != undefined) {
+		} else if (altFront === undefined && imageFront !== undefined) {
 			return "content-container-noText";
 		} else {
 			return "content-container-all";
@@ -87,18 +90,18 @@ const Card = ({
 	}
 	function setClassNameBack() {
 		if (
-			(imageBack != undefined && altBack != undefined) ||
-			(imageBack != undefined && headerBack != undefined)
+			(imageBack !== undefined && altBack !== undefined) ||
+			(imageBack !== undefined && headerBack !== undefined)
 		) {
 			return "content-container-all";
-		} else if (imageBack == undefined && altBack === undefined && headerBack != undefined) {
+		} else if (imageBack === undefined && altBack === undefined && headerBack !== undefined) {
 			return "content-container-noImg-noText";
 		} else if (
-			(imageBack == undefined && altBack != undefined) ||
-			(imageBack == undefined && headerBack != undefined)
+			(imageBack === undefined && altBack !== undefined) ||
+			(imageBack === undefined && headerBack !== undefined)
 		) {
 			return "content-container-noImg";
-		} else if (altBack == undefined && imageBack != undefined) {
+		} else if (altBack === undefined && imageBack !== undefined) {
 			return "content-container-noText";
 		} else {
 			return "content-container-all";
@@ -142,7 +145,7 @@ const Card = ({
 							onFocus={handleFocus}
 						>
 							<div className={setClassNameFront()}>
-								{imageFront != undefined ? (
+								{imageFront !== undefined ? (
 									<img
 										src={`../assets/img/` + imageFront[0]}
 										alt={imageFront[1]}
@@ -152,7 +155,7 @@ const Card = ({
 									""
 								)}
 								<div class="card-text-container">
-									{headerFront != undefined ? (
+									{headerFront !== undefined ? (
 										<p class="cardHeaderFront" aria-hidden="true">
 											{headerFront}
 										</p>
@@ -162,7 +165,7 @@ const Card = ({
 										</p>
 									)}
 
-									{altFront != undefined ? (
+									{altFront !== undefined ? (
 										<p class="cardTextBody" aria-hidden="true">
 											{altFront}
 										</p>
@@ -187,7 +190,7 @@ const Card = ({
 							onFocus={handleFocus}
 						>
 							<div className={setClassNameBack()}>
-								{imageBack != undefined ? (
+								{imageBack !== undefined ? (
 									<img
 										src={`../assets/img/` + imageBack[0]}
 										alt={imageBack[1]}
@@ -197,7 +200,7 @@ const Card = ({
 									""
 								)}
 								<div class="card-text-container">
-									{headerBack != undefined ? (
+									{headerBack !== undefined ? (
 										<p
 											class={`cardHeaderBack ${
 												altBack ? "alt-text-valid" : "alt-text-invalid"
@@ -217,7 +220,7 @@ const Card = ({
 										</p>
 									)}
 
-									{altBack != undefined ? (
+									{altBack !== undefined ? (
 										<p class="cardTextBody" aria-hidden="true">
 											{altBack}
 										</p>
