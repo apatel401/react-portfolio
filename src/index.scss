@@ -139,9 +139,10 @@ code {
 
   .skills svg {
     color: var(--text-primary);
-    width: calc(12vw - 3rem);
     height: auto;
-    padding: 2rem;
+    padding: 0px;
+    width: 4rem;
+    margin: 10px;
   }
 
   /* Wrapping */

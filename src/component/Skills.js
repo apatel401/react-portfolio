@@ -95,13 +95,13 @@ export default function Skills() {
       "id": "10",
       "skillName" :"Angular",
       "skillIcon": <SiAngular />,
-      "progress": "94"
+      "progress": "88"
     },
     {
       "id": "11",
       "skillName" :"Vue.js",
       "skillIcon":  <SiVuedotjs/>,
-      "progress": "85"
+      "progress": "80"
     },
     {
       "id": "12",
@@ -137,7 +137,7 @@ export default function Skills() {
       "id": "17",
       "skillName" :"Mongodb",
       "skillIcon": <SiMongodb />,
-      "progress": "95"
+      "progress": "80"
     },
     {
       "id": "18",
@@ -197,13 +197,13 @@ export default function Skills() {
       "id": "27",
       "skillName" :"Json",
       "skillIcon": <SiJson />,
-      "progress": "95"
+      "progress": "90"
     },
     {
       "id": "28",
       "skillName" :"Python",
       "skillIcon": <SiPython />,
-      "progress": "95"
+      "progress": "88"
     }  
   ]
   return (
