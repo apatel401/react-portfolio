@@ -20,7 +20,7 @@ export default function Home() {
       });
       setLines(split_res[0].chars);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line
   }, [splitRef]);
 
   const defaultOptions = {

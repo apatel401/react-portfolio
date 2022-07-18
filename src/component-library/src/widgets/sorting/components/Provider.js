@@ -7,10 +7,10 @@ export const SortingTableContext = createContext();
 export default function ProviderComponent(props) {
 	const fontSizeMain = { fontSize: props.config.fontSizeMain };
 	const fontSizeHeading = { fontSize: props.config.fontSizeHeading };
-	// eslint-disable-next-line react-hooks/rules-of-hooks
+	// eslint-disable-next-line
 	const cardRefs = useRef(JSON.parse(JSON.stringify(props.config.cards)).map(() => useRef()));
 	const categoryRefs = useRef(
-		// eslint-disable-next-line react-hooks/rules-of-hooks
+		// eslint-disable-next-line
 		JSON.parse(JSON.stringify(props.config.categories)).map(() => useRef())
 	);
 	const trayRef = useRef();

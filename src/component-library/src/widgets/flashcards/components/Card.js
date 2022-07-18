@@ -23,7 +23,7 @@ const Card = ({
 		if (context.flipped !== keyId) {
 			setisFlipped(false);
 		}
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+	// eslint-disable-next-line
 	}, [context.flipped]);
 
 	function flip(e, keydownEvent) {
@@ -66,7 +66,7 @@ const Card = ({
 	useEffect(() => {
 		if (context.resetFlipped) setisFlipped(false);
 		context.updateContext({ isFrontCard: true });
-	// eslint-disable-next-line react-hooks/exhaustive-deps
+// eslint-disable-next-line
 	}, [context.resetFlipped]);
 
 	function setClassNameFront() {

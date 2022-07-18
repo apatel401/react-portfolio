@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+// eslint-disable-next-line
 import React from 'react';
 import Card from './Card';
 import { SortingTableContext } from './Provider';
@@ -17,7 +17,7 @@ function Tray(props) {
     let cardNumInTray = 0;
     context.cardDeck.map((card, index) => {
         card.id = index
-        // eslint-disable-next-line no-unused-expressions
+       // eslint-disable-next-line
         card.categoryPlacedId === -1 || card.categoryPlacedId === undefined ?
             totalCardsInTray++ : null;
     });
@@ -112,7 +112,7 @@ function Tray(props) {
         if(count < 1){
             return
         } ;
-        // eslint-disable-next-line no-unused-expressions
+        // eslint-disable-next-line
         !props.cardInTransition && 
         context.trayRef.current !== null && context.trayRef.current !== undefined ? context.trayRef.current.focus() : null
         context.tryAgain && context.updateContext({ 
