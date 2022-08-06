@@ -60,44 +60,64 @@ export const JobData = [
   ];
   export const CompDisplay = [
     {
-      "id": "1",
+      "name": "Dashboard",
+      "liveUrl": "https://dapper-dashboard.netlify.app/",
+      "techStack" : "React, NodeJS, Sass, Webpack"
+    },
+    {
+      "name": "Project Management",
+      "liveUrl": "n/a",
+      "techStack" : "MongoDB, Express, React, NodeJS, Webpack"
+    },
+    {
       "name": "multiple-choice",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "2",
       "name": "multiple choice checkbox",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "3",
       "name": "Image hotspot",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/interactive-images.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "4",
       "name": "Flashcards",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "5",
       "name": "matching widget",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/matching.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "6",
       "name": "Content cabinet",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "7",
       "name": "flowchart",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "8",
       "name": "sorting table",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "9",
       "name": "Image juxtaposition",
+      "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/image-juxtaposition.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
     {
-      "id": "10",
       "name": "Interest calculator",
+      "liveUrl" : "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
+      "techStack" : "React, NodeJS, Sass, Webpack, Gulp"
     },
 
   ]
