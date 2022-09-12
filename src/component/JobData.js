@@ -70,6 +70,11 @@ export const JobData = [
       "techStack" : "MongoDB, Express, React, NodeJS, Webpack"
     },
     {
+      "name": "Component Library",
+      "liveUrl": "https://apatelportfolio.netlify.app/component-library",
+      "techStack" : "MongoDB, Express, React, NodeJS, Webpack"
+    },
+    {
       "name": "multiple-choice",
       "liveUrl": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
       "techStack" : "React, NodeJS, Sass, Webpack, Gulp"

@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Resume from "./Resume";
 import Home from "./Home";
 import Skills from "./Skills";
+import ComponentLibrary from "./ComponentLibrary"
 import {FaSun, FaMoon} from "react-icons/fa";
 import { ThemeContext } from "./Provider";
 
@@ -68,6 +69,10 @@ const Header = () => {
         <Route path="/contact">
           <Contact />
         </Route>
+        <Route path="/component-library">
+          <ComponentLibrary />
+        </Route>
+        
       </Switch>
       </div>
     </div>
