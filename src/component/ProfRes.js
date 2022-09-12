@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData, School } from "./JobData";
+import { JobData, School } from "./ResumeData"
 
-function Resume() {
-  // const [jobs, setJobs] = useState(JobData);
+function ProfRes() {
   const [value, setValue] = useState(0);
   const { title, duties, dates } = JobData[value];
   return (
@@ -15,17 +14,14 @@ function Resume() {
             <div className="card-body">
               <h2 className="card-title">Profile</h2>
               <p className="card-text">
-                A creative professional with 3 years of hands on for web &amp;
-                mobile application. I am a multi-tasking web designer with
-                passion for designing clean and functional websites, web
-                applications &amp; development along with print media. I amWeb
-                developer with experience coding websites and web application
-                using Javascript, React, Angular, NPM, NodeJS, HTML, CSS,
-                wordPress, javascript, jquary, Bootstrap. I focus on writing
-                clear and efficient codes. Pixel perfect creation &amp;
-                attention to details are my strengths and I believe in quality
-                oriented results. Currently residing in Oshawa, ON, Canada. I am
-                looking to grow professionally and personally.
+              A full stack web developer well versed in both front end and back end software
+development engineering, combined with strong communication skills. Proficient in
+MongoDB database Technology, REST and GraphQL API design, JavaScript and React.
+Resourceful and adaptable to quickly problem solve, debug, and stay on schedule with
+short project deadlines. Passionate about optimization and automation, clean efficient
+and maintainable code; demonstrated by a portfolio of projects. Strong project execution
+skills coupled with conceptualization skills, turning ideas into projects to solve real
+problems.
               </p>
             </div>
           </div>
@@ -81,9 +77,6 @@ function Resume() {
 <h3>{School[0].name}</h3>
 <p><strong>{School[0].courseName}</strong></p>
 <p><strong>{School[0].year}</strong></p>
-<h3>{School[1].name}</h3>
-<p><strong>{School[1].courseName}</strong></p>
-<p><strong>{School[1].year}</strong></p>
 </div>
 
         </div>
@@ -92,4 +85,4 @@ function Resume() {
   );
 }
 
-export default Resume;
+export default ProfRes;

@@ -5,7 +5,7 @@ import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel, FcHome} from "react-ico
 
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Resume from "./Resume";
+import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
 import {FaSun, FaMoon} from "react-icons/fa";
@@ -23,16 +23,16 @@ const Header = () => {
     <Router>
       <Navbar collapseOnSelect expand="lg">
       <div className="container">
-          <Navbar.Brand>Akash Patel</Navbar.Brand>
+      <Nav.Link as={Link} to={"/"} className="custom-link">
+      <Navbar.Brand>Akash Patel</Navbar.Brand>
+              </Nav.Link>
           <div className="themeChange" onClick={switchTheme}>
               {context.theme === "dark" ? <FaSun /> : <FaMoon />}
               </div>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link as={Link} to={"/"} className="custom-link">
-                <FcHome /> Home
-              </Nav.Link>
+            
               <Nav.Link as={Link} to={"/skills"} className="custom-link">
                 <FcLightAtTheEndOfTunnel /> skills
               </Nav.Link>
@@ -63,7 +63,7 @@ const Header = () => {
           <Projects />
         </Route>
         <Route path="/resume">
-          <Resume />
+          <ProfRes />
         </Route>
         <Route path="/contact">
           <Contact />
