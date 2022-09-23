@@ -49,6 +49,6 @@ export const JobData = [
   "id": "1",
   "name": "Mahatma Gandhi Kashi Vidhyapith",
   "courseName": "Bachelor of Computer Applications",
-  "year": "2009 - 2012"
+  "year": "2013 - 2016"
 }
   ];
