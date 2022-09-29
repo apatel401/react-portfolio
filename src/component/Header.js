@@ -1,7 +1,8 @@
 import React, { useContext} from "react";
 import Projects from "./Projects";
+import NewProjects from "./NewProjects";
 import Contact from "./Contact";
-import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel, FcHome} from "react-icons/fc"
+import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel} from "react-icons/fc"
 
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -9,7 +10,7 @@ import Resume from "./Resume";
 import Home from "./Home";
 import Skills from "./Skills";
 import ComponentLibrary from "./ComponentLibrary"
-import {FaSun, FaMoon} from "react-icons/fa";
+// import {FaSun, FaMoon} from "react-icons/fa";
 import { ThemeContext } from "./Provider";
 
 
@@ -24,16 +25,13 @@ const Header = () => {
     <Router>
       <Navbar collapseOnSelect expand="lg">
       <div className="container">
-          <Navbar.Brand>Akash Patel</Navbar.Brand>
-          <div className="themeChange" onClick={switchTheme}>
+          <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
+          {/* <div className="themeChange" onClick={switchTheme}>
               {context.theme === "dark" ? <FaSun /> : <FaMoon />}
-              </div>
+              </div> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <Nav.Link as={Link} to={"/"} className="custom-link">
-                <FcHome /> Home
-              </Nav.Link>
               <Nav.Link as={Link} to={"/skills"} className="custom-link">
                 <FcLightAtTheEndOfTunnel /> skills
               </Nav.Link>
@@ -61,7 +59,7 @@ const Header = () => {
           <Skills />
         </Route>
         <Route path="/projects">
-          <Projects />
+          <NewProjects />
         </Route>
         <Route path="/resume">
           <Resume />

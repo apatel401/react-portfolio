@@ -66,13 +66,13 @@ export const JobData = [
     },
     {
       "name": "Project Management",
-      "liveUrl": "n/a",
-      "techStack" : "MongoDB, Express, React, NodeJS, Webpack"
+      "liveUrl": "",
+      "techStack" : "GraphQL, MongoDB, Express, React, NodeJS, Webpack"
     },
     {
       "name": "Component Library",
       "liveUrl": "https://apatelportfolio.netlify.app/component-library",
-      "techStack" : "MongoDB, Express, React, NodeJS, Webpack"
+      "techStack" : "React, NodeJS, Webpack, Gulp,"
     },
     {
       "name": "multiple-choice",
