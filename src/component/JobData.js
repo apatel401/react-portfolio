@@ -73,7 +73,7 @@ export const CompDisplay = [
     liveUrl: "https://dapper-dashboard.netlify.app/",
     appDetail:
       "React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts! using SyncFusion components",
-    imgSrc: "",
+    imgSrc: "/img/dashboard.png",
     code: "https://github.com/apatel401/dashboard",
     techStack: "React, NodeJS, Webpack, Tailwind UI, SyncFusion",
   },
@@ -82,15 +82,15 @@ export const CompDisplay = [
     liveUrl: "",
     appDetail:
       "full-stack project management system with GraphQL, Express, MongoDB, React, and Apollo.",
-    imgSrc: "",
+    imgSrc: "/img/project_management.png",
     code: "https://github.com/apatel401/AG-MERN-Project-management",
     techStack: "Apollo, GraphQL, MongoDB, Express, React, NodeJS, Webpack",
   },
   {
     name: "Component Library",
     liveUrl: "https://apatelportfolio.netlify.app/component-library",
-    appDetail: "Library made of reusable component made using React, NodeJs , npm Registry, Webpack and Gulp",
-    imgSrc: "",
+    appDetail: "Library made of reusable component made using React, Sass, NodeJs , NPM Registry, Webpack and Gulp",
+    imgSrc: "/img/component-library.png",
     code: "",
     techStack: "React, NodeJS, Webpack, Gulp, NPM",
   },
@@ -98,8 +98,8 @@ export const CompDisplay = [
     name: "multiple-choice",
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
-    appDetail: "",
-    imgSrc: "",
+    appDetail: "Multiple Choice is interactive learning object/widget that can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. ILO include validation of answers and giving feedback on submition of answer, This ILO features a fully configurable json file to switch between secondary and elementary modes. The ILO is fully responsive and AODA compliant.",
+    imgSrc: "/img/multiple-choice.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -108,7 +108,7 @@ export const CompDisplay = [
   //   liveUrl:
   //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
   //   appDetail: "",
-  //   imgSrc: "",
+  //   imgSrc: "/img/quiz.png",
   //   code: "",
   //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
   // },
@@ -117,7 +117,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/interactive-images.html",
     appDetail: "",
-    imgSrc: "/img/interactive-images.jpg",
+    imgSrc: "/img/interactive-images.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -126,16 +126,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
     appDetail: "",
-    imgSrc: "/img/flashcards.jpg",
-    code: "",
-    techStack: "React, NodeJS, Sass, Webpack, Gulp",
-  },
-  {
-    name: "matching widget",
-    liveUrl:
-      "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/matching.html",
-    appDetail: "",
-    imgSrc: "",
+    imgSrc: "/img/flashcard.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -144,16 +135,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
     appDetail: "",
-    imgSrc: "",
-    code: "",
-    techStack: "React, NodeJS, Sass, Webpack, Gulp",
-  },
-  {
-    name: "flowchart",
-    liveUrl:
-      "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
-    appDetail: "",
-    imgSrc: "",
+    imgSrc: "/img/content-cabinet.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -162,7 +144,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting.html",
     appDetail: "",
-    imgSrc: "",
+    imgSrc: "/img/sorting-table.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -171,7 +153,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/image-juxtaposition.html",
     appDetail: "",
-    imgSrc: "",
+    imgSrc: "/img/image-juxtaposition.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
@@ -180,7 +162,7 @@ export const CompDisplay = [
     liveUrl:
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
     appDetail: "",
-    imgSrc: "",
+    imgSrc: "/img/Compound-interest-calculator.png",
     code: "",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
