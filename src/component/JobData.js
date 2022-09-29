@@ -3,7 +3,7 @@ export const JobData = [
     id: "1",
     company: "TVO",
     title: "web Production Artist",
-    dates: "December 2020 - Present, September 2019 - June 2019",
+    dates: "December 2020 - Present",
     duties: [
       "Part of an Agile(Scrum) Development Team to deliver regular updates to project managers.",
       "Collaborated on creating Innovative apps and widgets using React, NodeJS, HTML5, SCSS and CSS3.",
@@ -62,15 +62,9 @@ export const JobData = [
 export const School = [
   {
     id: "1",
-    name: "Seneca College",
-    courseName: "Javascript and Angular",
-    year: "May 2019 - August 2019",
-  },
-  {
-    id: "2",
-    name: "Gujarat University",
+    name: "Mahatma Gandhi Kashi Vidhyapith",
     courseName: "Bachelor of Computer Applications",
-    year: "May 2019 - August 2019",
+    year: "June 2013 - May 2016",
   },
 ];
 export const CompDisplay = [
