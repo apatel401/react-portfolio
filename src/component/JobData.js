@@ -5,13 +5,16 @@ export const JobData = [
     title: "web Production Artist",
     dates: "December 2020 - Present, September 2019 - June 2019",
     duties: [
-      "Developing and maintaining automation scripts which can optimize tasks.",
-      "Developing and maintaining reusable Interactive Learning Objects and widgets.",
-      "Producing vendor files using NPM, Node.js, Webpack, Grunt and Gulp bundling tools",
-      "Troubleshooting the bugs reported by internal QA team or external team.",
-      "Finding solution globally which can improve AODA of course project.",
-      "Responsible for taking care of W3C and WCAG 2.0 (Level AA) and AODA Compliance.",
-      "Improving web accessibility of courses and developed scripts to automate some of the work.",
+      "Part of an Agile(Scrum) Development Team to deliver regular updates to project managers.",
+      "Collaborated on creating Innovative apps and widgets using React, NodeJS, HTML5, SCSS and CSS3.",
+      "Created programs in modern JavaScript, NodeJS and TypeScript to minimize production time and maximize performance.",
+      "Collaborated Setting up and managing NPM Registry for Components and component Library.",
+      "Used module bundler tools like Webpack and Gulp",
+      "Used GIT as a version control and GitLab for remote repository.",
+      "Contributed in creating and maintaining automation scripts which can optimize tasks and enhance accessibility",
+      "Troubleshooting the bugs reported by internal QA team or external team using bug tracking software Target Process.",
+      "Responsible for taking care of W3C and WCAG 2.0 (Level AA) and AODA Compliance."
+
     ],
   },
   {
@@ -20,26 +23,38 @@ export const JobData = [
     title: "web developer",
     dates: "June 2020 - December 2020",
     duties: [
-      "Design customized theme using WordPress.",
-      "Design customized theme for Shopify. Shopify code edit expert.",
-      "Developing Game using HTML5 Canvas, CSS, JavaScript and jQuery.",
-      "Responsible for testing website, Forms included in the website.",
-      "Following Designer's Guideline to Develop responsive website.",
-      "Maintaining all W3C standards WCAG 2.0 and AODA standards.",
+      "Developed Games using HTML5, Canvas, CSS3, SCSS, JavaScript, React, Angular and jQuery.",
+      "Creation of customized theme in WordPress and Shopify",
+      "Build template from scratch using JSON configuration in Shopify",
+      "Setting up back end store for online book store",
+      "Creating and maintaining website which has maintainable and clean code.",
+      "Maintaining all W3C standards WCAG 2.0 and AODA standards."
     ],
   },
   {
     id: "3",
+    company: "TVO",
+    title: "web Production Artist",
+    dates: "September 2019 - June 2019",
+    duties: [
+      "Developing and managing reusable Interactive Learning Objects and widgets.",
+      "Creating central website which includes snippets for component used in courses so other employees have easy access to snippets.",
+      "Experience enhancing accessibility by leveraging expertise adding automation script",
+      "Producing vendor files using NPM, Node.js, Webpack, Grunt and Gulp bundling tools",
+      "Troubleshooting the bugs reported by internal QA team or external team.",
+      "Responsible for taking care of W3C and WCAG 2.0 (Level AA) and AODA Compliance."
+    ]
+  },
+  {
+    id: "4",
     company: "BoldPod Inc.",
     title: "Front-end developer",
     dates: "January 2019 - September 2019",
     duties: [
-      "Design customized theme using WordPress",
-      "Develop an app using phone gap for Android OS and IOS.",
-      "Design of great visual identity that are SEO Friendly.",
+      "Creating customized theme using WordPress",
+      "Developed an app using phone gap for Android OS and IOS.",
       "Maintaining AODA and W3C standard in all website developed.",
-      "Design professional PPT, Mockups, Blog graphics, Infographics",
-      "Proficiency in Creative Design Software specifically Photoshop.",
+      "Proficiency in creating website which is responsive, clean and professional.",
     ],
   },
 ];

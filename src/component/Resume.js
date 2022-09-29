@@ -14,19 +14,12 @@ function Resume() {
           <div className="col-md-10">
             <div className="card-body">
               <h2 className="card-title">Profile</h2>
-              <p className="card-text">
-                A creative professional with 3 years of hands on for web &amp;
-                mobile application. I am a multi-tasking web designer with
-                passion for designing clean and functional websites, web
-                applications &amp; development along with print media. I amWeb
-                developer with experience coding websites and web application
-                using Javascript, React, Angular, NPM, NodeJS, HTML, CSS,
-                wordPress, javascript, jquary, Bootstrap. I focus on writing
-                clear and efficient codes. Pixel perfect creation &amp;
-                attention to details are my strengths and I believe in quality
-                oriented results. Currently residing in Oshawa, ON, Canada. I am
-                looking to grow professionally and personally.
-              </p>
+              <p className="card-text">Front End Developer with 4 years of experience in Education, Ecommerce, and Retail Sectors. Good Understanding of data
+structure, algorithms and Software Development Life Cycles. Resourceful and adaptable to quickly problem solve, debug,
+and stay on schedule with short project deadlines. Passionate about automation code, clean, efficient and maintainable
+code demonstrated by a portfolio of projects. Strong project execution skills coupled with conceptualization skills and
+team work, turning ideas into projects to solve real problems. Always learning new skills. Team player of multiple
+successful projects. </p>
             </div>
           </div>
           <div className="col-md-2">
