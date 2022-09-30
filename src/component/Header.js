@@ -1,16 +1,14 @@
 import React, { useContext} from "react";
 import Projects from "./Projects";
-import NewProjects from "./NewProjects";
 import Contact from "./Contact";
-import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel} from "react-icons/fc"
+import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel, FcHome} from "react-icons/fc"
 
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
-import ComponentLibrary from "./ComponentLibrary"
-// import {FaSun, FaMoon} from "react-icons/fa";
+import {FaSun, FaMoon} from "react-icons/fa";
 import { ThemeContext } from "./Provider";
 
 
@@ -26,14 +24,15 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg">
       <div className="container">
       <Nav.Link as={Link} to={"/"} className="custom-link">
-      <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
+      <Navbar.Brand>Akash Patel</Navbar.Brand>
               </Nav.Link>
-          {/* <div className="themeChange" onClick={switchTheme}>
+          <div className="themeChange" onClick={switchTheme}>
               {context.theme === "dark" ? <FaSun /> : <FaMoon />}
-              </div> */}
+              </div>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
+            
               <Nav.Link as={Link} to={"/skills"} className="custom-link">
                 <FcLightAtTheEndOfTunnel /> skills
               </Nav.Link>
@@ -61,7 +60,7 @@ const Header = () => {
           <Skills />
         </Route>
         <Route path="/projects">
-          <NewProjects />
+          <Projects />
         </Route>
         <Route path="/resume">
           <ProfRes />
@@ -69,10 +68,6 @@ const Header = () => {
         <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/component-library">
-          <ComponentLibrary />
-        </Route>
-        
       </Switch>
       </div>
     </div>

@@ -8,7 +8,6 @@ function FloatingMenu() {
   return (
     <ul className="floating-menu">
     <li>
-      <a href="/resume.pdf" download>
       <Tooltip
         content={
           <>
@@ -21,10 +20,8 @@ function FloatingMenu() {
           <ImFolderDownload />
         </button>
       </Tooltip>
-      </a>
     </li>
     <li>
-      <a href='https://www.linkedin.com/in/akash-patel-98885a182/' target="_blank">
       <Tooltip
         content={
           <>
@@ -37,10 +34,8 @@ function FloatingMenu() {
           <AiFillLinkedin />
         </button>
       </Tooltip>
-      </a>
     </li>
     <li>
-      <a href="https://github.com/apatel401" target="_blank">
       <Tooltip
         content={
           <>
@@ -53,10 +48,8 @@ function FloatingMenu() {
           <AiFillGithub />
         </button>
       </Tooltip>
-      </a>
     </li>
     <li>
-      <a href='mailto:webdevbyakash@gmail.com' target="_blank">
       <Tooltip
         content={
           <>
@@ -69,7 +62,6 @@ function FloatingMenu() {
           <AiOutlineMail />
         </button>
       </Tooltip>
-      </a>
     </li>
     <li>
       <Tooltip
