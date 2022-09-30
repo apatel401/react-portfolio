@@ -25,7 +25,9 @@ const Header = () => {
     <Router>
       <Navbar collapseOnSelect expand="lg">
       <div className="container">
-          <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
+      <Nav.Link as={Link} to={"/"} className="custom-link">
+      <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
+              </Nav.Link>
           {/* <div className="themeChange" onClick={switchTheme}>
               {context.theme === "dark" ? <FaSun /> : <FaMoon />}
               </div> */}
