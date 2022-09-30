@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData, School } from "./ResumeData"
+import { JobData, School } from "./JobData"
 
 function ProfRes() {
   const [value, setValue] = useState(0);
@@ -25,13 +25,6 @@ problems.
               </p>
             </div>
           </div>
-          <div className="col-md-2">
-            <img
-              src="./akash.jpeg"
-              className="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
         </div>
       </div>
       <hr />
@@ -39,6 +32,52 @@ problems.
         <FloatingMenu />
       </div>
       <div className="row">
+        <div className="col-md-12">
+          <h2 className="text-center">Experience</h2>
+          <div className="ex-container">
+            <div className="title-container">
+              {JobData.map((job, index) => {
+                return (
+                  <button
+                    key={job.id}
+                    id={job.id}
+                    onClick={() => setValue(index)}
+                    className={
+                      index === value ? "job-btn active-btn" : "job-btn"
+                    }
+                  >
+                    {job.company}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="details-container">
+              <h3>{title}</h3>
+              {dates.split(",").length > 1 ? (
+                <>
+                  <p className="dates">{dates.split(",")[0]}</p>
+                  <p>{dates.split(",")[1]}</p>
+                </>
+              ) : (
+                <p>{dates}</p>
+              )}
+              {duties.map((duty) => {
+                return <p>{duty}</p>;
+              })}
+            </div>
+            <div className="col-md-12">
+              <h2 className="text-center">Education</h2>
+              <div className="college">
+                <h3>{School[0].name}</h3>
+                <p>
+                  <strong>{School[0].courseName}</strong>
+                </p>
+                <p>
+                  <strong>{School[0].year}</strong>
+                </p>
+              </div>
+            </div>
+          </div>
         <div className="col-md-8">
         <h2 className="text-center">Experience</h2>
         <div className="ex-container">
@@ -78,7 +117,6 @@ problems.
 <p><strong>{School[0].courseName}</strong></p>
 <p><strong>{School[0].year}</strong></p>
 </div>
-
         </div>
       </div>
     </div>
