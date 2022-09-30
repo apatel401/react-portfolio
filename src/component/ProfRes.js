@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData, School } from "./ResumeData";
+import { JobData, School } from "./JobData";
 
 function ProfRes() {
   const [value, setValue] = useState(0);
@@ -56,6 +56,9 @@ function ProfRes() {
             </div>
             <div className="details-container">
               <h3>{title}</h3>
+              <ul>
+
+              </ul>
               {dates.split(",").length > 1 ? (
                 <>
                   <p className="dates">{dates.split(",")[0]}</p>
@@ -65,7 +68,7 @@ function ProfRes() {
                 <p>{dates}</p>
               )}
               {duties.map((duty) => {
-                return <p>{duty}</p>;
+                return <p>- {duty}</p>;
               })}
             </div>
             <div className="col-md-12">
