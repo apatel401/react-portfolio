@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData, School } from "./JobData";
+import { JobData, School } from "./ResumeData"
 
-function Resume() {
-  // const [jobs, setJobs] = useState(JobData);
+function ProfRes() {
   const [value, setValue] = useState(0);
   const { title, duties, dates } = JobData[value];
   return (
@@ -73,6 +72,7 @@ function Resume() {
             <div className="col-md-12">
           <h2 className="text-center">Education</h2>
           <div className="college">
+<<<<<<< HEAD:src/component/Resume.js
             <h3>{School[0].name}</h3>
             <p>
               <strong>{School[0].courseName}</strong>
@@ -83,10 +83,17 @@ function Resume() {
           </div>
         </div>
           </div>
+=======
+<h3>{School[0].name}</h3>
+<p><strong>{School[0].courseName}</strong></p>
+<p><strong>{School[0].year}</strong></p>
+</div>
+
+>>>>>>> 9c68d4c1a97d432e88938cc889164360ac40a54a:src/component/ProfRes.js
         </div>
       </div>
     </div>
   );
 }
 
-export default Resume;
+export default ProfRes;

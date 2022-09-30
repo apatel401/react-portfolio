@@ -6,7 +6,7 @@ import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel} from "react-icons/fc"
 
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Resume from "./Resume";
+import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
 import ComponentLibrary from "./ComponentLibrary"
@@ -32,6 +32,10 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 9c68d4c1a97d432e88938cc889164360ac40a54a
               <Nav.Link as={Link} to={"/skills"} className="custom-link">
                 <FcLightAtTheEndOfTunnel /> skills
               </Nav.Link>
@@ -62,7 +66,7 @@ const Header = () => {
           <NewProjects />
         </Route>
         <Route path="/resume">
-          <Resume />
+          <ProfRes />
         </Route>
         <Route path="/contact">
           <Contact />
