@@ -92,7 +92,7 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
     appDetail: "Multiple Choice is interactive learning object/widget that shows question is asked to student and student need to select their responses. ILO also include validation of answers and giving feedback on submition of answer, This ILO features a fully configurable json file to switch between secondary and elementary modes. The ILO is fully responsive and AODA compliant. Widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
     imgSrc: "/img/multiple-choice.png",
-    code: "",
+    code: "https://gitlab.tvo.org/digital-learning/interactives/multiple-choice",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   // {
@@ -101,7 +101,7 @@ export const CompDisplay = [
   //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
   //   appDetail: "",
   //   imgSrc: "/img/quiz.png",
-  //   code: "",
+  //   code:"https://gitlab.tvo.org/digital-learning/interactives/",
   //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
   // },
   {
@@ -110,7 +110,7 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/interactive-images.html",
     appDetail: "Interactive Images is interactive learning object/widget that can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. ILO uses mapping areas of image and add more details about image, This ILO features a fully configurable json file to switch between secondary and elementary modes. The ILO is fully responsive and AODA compliant.",
     imgSrc: "/img/interactive-images.png",
-    code: "",
+    code: "https://gitlab.tvo.org/digital-learning/interactives/interactive-images",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
@@ -119,7 +119,7 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
     appDetail: "Flashcards is an interactive learning object that features a fully configurable json file to include images, text and audio with front and back cards and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
     imgSrc: "/img/flashcards.png",
-    code: "",
+    code: "https://gitlab.tvo.org/digital-learning/interactives/flashcards",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
@@ -128,16 +128,16 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
     appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
     imgSrc: "/img/content-cabinet.png",
-    code: "",
+    code: "https://gitlab.tvo.org/digital-learning/interactives/content-cabinet",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
     name: "sorting table",
     liveUrl:
-      "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting.html",
+      "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
     appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
     imgSrc: "/img/sorting-table.png",
-    code: "",
+    code: "https://gitlab.tvo.org/digital-learning/interactives/sorting-table",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
@@ -146,7 +146,7 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/image-juxtaposition.html",
     appDetail: "This widget is used by students to shown two different images set by slider which shows both images at the same time with both image width adjusted by slider/juxtaposition. This widget is responsive and AODA compliant. This widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
     imgSrc: "/img/image-juxtaposition.png",
-    code: "",
+    code:"https://gitlab.tvo.org/digital-learning/interactives/image-juxtaposition",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
@@ -155,7 +155,7 @@ export const CompDisplay = [
       "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
     appDetail: "Compound interest calculator is used by students by inputting different values which gives them the output of interest earned and future value of investment.This widget is responsive and AODA compliant. This widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
     imgSrc: "/img/Compound-interest-calculator.png",
-    code: "",
+    code:"https://gitlab.tvo.org/digital-learning/interactives/compound-interest-calculator",
     techStack: "React, NodeJS, Sass, Webpack, Gulp",
   },
   {
@@ -163,7 +163,7 @@ export const CompDisplay = [
     liveUrl: "https://apatelportfolio.netlify.app/component-library",
     appDetail: "Library made of reusable component made using React, Sass, NodeJs , NPM Registry, Webpack and Gulp",
     imgSrc: "/img/component-library.png",
-    code: "",
+    code:"https://gitlab.tvo.org/digital-learning/interactives/component-library",
     techStack: "React, NodeJS, Webpack, Gulp, NPM",
   },
 ];

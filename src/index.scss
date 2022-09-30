@@ -46,7 +46,15 @@
   --tooltip-arrow-size: 6px;
   
 }
-
+.btn-bd-primary {
+  font-weight: 600;
+  background-color: #712cf9 !important;
+  margin-right: 20px;
+  color: #fff !important;
+  &:hover{
+    background-color: #6528e0 !important;
+  }
+}
 body {
   margin: 0;
   padding: 0;
