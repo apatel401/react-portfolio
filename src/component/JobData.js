@@ -35,7 +35,7 @@ export const JobData = [
     id: "3",
     company: "TVO",
     title: "web Production Artist",
-    dates: "September 2019 - June 2019",
+    dates: "September 2019 - June 2020",
     duties: [
       "Developing and managing reusable Interactive Learning Objects and widgets.",
       "Creating central website which includes snippets for component used in courses so other employees have easy access to snippets.",
