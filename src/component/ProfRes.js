@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FloatingMenu from "./FloatingMenu";
-import { JobData, School } from "./ResumeData"
+import { JobData, School } from "./JobData"
 
 function ProfRes() {
   const [value, setValue] = useState(0);
@@ -28,7 +28,6 @@ function ProfRes() {
               </p>
             </div>
           </div>
-       
         </div>
       </div>
       <hr />
@@ -70,26 +69,18 @@ function ProfRes() {
               })}
             </div>
             <div className="col-md-12">
-          <h2 className="text-center">Education</h2>
-          <div className="college">
-<<<<<<< HEAD:src/component/Resume.js
-            <h3>{School[0].name}</h3>
-            <p>
-              <strong>{School[0].courseName}</strong>
-            </p>
-            <p>
-              <strong>{School[0].year}</strong>
-            </p>
+              <h2 className="text-center">Education</h2>
+              <div className="college">
+                <h3>{School[0].name}</h3>
+                <p>
+                  <strong>{School[0].courseName}</strong>
+                </p>
+                <p>
+                  <strong>{School[0].year}</strong>
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-          </div>
-=======
-<h3>{School[0].name}</h3>
-<p><strong>{School[0].courseName}</strong></p>
-<p><strong>{School[0].year}</strong></p>
-</div>
-
->>>>>>> 9c68d4c1a97d432e88938cc889164360ac40a54a:src/component/ProfRes.js
         </div>
       </div>
     </div>

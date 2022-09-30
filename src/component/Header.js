@@ -10,16 +10,9 @@ import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
 import ComponentLibrary from "./ComponentLibrary"
-// import {FaSun, FaMoon} from "react-icons/fa";
-import { ThemeContext } from "./Provider";
 
 
 const Header = () => {
-  const context = useContext(ThemeContext);
-  function switchTheme() {
-    const newTheme = context.theme === "dark" ? "light" : "dark";
-    context.updateContext({ theme: newTheme });
-  }
 
   return (
     <Router>
@@ -28,9 +21,6 @@ const Header = () => {
       <Nav.Link as={Link} to={"/"} className="custom-link">
       <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
               </Nav.Link>
-          {/* <div className="themeChange" onClick={switchTheme}>
-              {context.theme === "dark" ? <FaSun /> : <FaMoon />}
-              </div> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
