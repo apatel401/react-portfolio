@@ -112,24 +112,6 @@
   ];
   export const CompDisplay = [
     {
-      name: "Dashboard",
-      liveUrl: "https://dapper-dashboard.netlify.app/",
-      appDetail:
-        "React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts! using SyncFusion components",
-      imgSrc: "/img/dashboard.png",
-      code: "https://github.com/apatel401/dashboard",
-      techStack: "React, NodeJS, Webpack, Tailwind UI, SyncFusion",
-    },
-    {
-      name: "Project Management",
-      liveUrl: "",
-      appDetail:
-        "full-stack project management system with GraphQL, Express, MongoDB, React, and Apollo.",
-      imgSrc: "/img/project_management.png",
-      code: "https://github.com/apatel401/AG-MERN-Project-management",
-      techStack: "Apollo, GraphQL, MongoDB, Express, React, NodeJS, Webpack",
-    },
-    {
       name: "multiple-choice",
       liveUrl:
         "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
@@ -137,15 +119,6 @@
       imgSrc: "/img/multiple-choice.png",
       code: " ",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
-    {
-      name: "Shopping App with redux",
-      liveUrl:
-        "https://helpful-blini-c54aaf.netlify.app/",
-      appDetail: "Shopping App made with React, Redux, NodeJS, Firebase, showcasing ecommerce app example which can be scaled.",
-      imgSrc: "/img/redux.png",
-      code: " ",
-      techStack: "React,Redux, Firebase, NodeJS, Sass, Webpack",
     },
     // {
     //   name: "multiple choice checkbox",
@@ -210,6 +183,33 @@
       code:"",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
+    {
+      name: "Dashboard",
+      liveUrl: "https://dapper-dashboard.netlify.app/",
+      appDetail:
+        "React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts! using SyncFusion components",
+      imgSrc: "/img/dashboard.png",
+      code: "https://github.com/apatel401/dashboard",
+      techStack: "React, NodeJS, Webpack, Tailwind UI, SyncFusion",
+    },
+    {
+      name: "Project Management",
+      liveUrl: "",
+      appDetail:
+        "full-stack project management system with GraphQL, Express, MongoDB, React, and Apollo.",
+      imgSrc: "/img/project_management.png",
+      code: "https://github.com/apatel401/AG-MERN-Project-management",
+      techStack: "Apollo, GraphQL, MongoDB, Express, React, NodeJS, Webpack",
+    },
+    {
+      name: "Shopping App with redux",
+      liveUrl:
+        "https://helpful-blini-c54aaf.netlify.app/",
+      appDetail: "Shopping App made with React, Redux, NodeJS, Firebase, showcasing ecommerce app example which can be scaled.",
+      imgSrc: "/img/redux.png",
+      code: " ",
+      techStack: "React,Redux, Firebase, NodeJS, Sass, Webpack",
+    }
     // {
     //   name: "Component Library",
     //   liveUrl: "https://apatelportfolio.netlify.app/component-library",
