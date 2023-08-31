@@ -16,8 +16,10 @@ function NewProjects() {
                   <p className="card-text">
                     {item.appDetail}
                   </p>
+                  <div className="stack" style={{margin: "15px 0"}}>{item.techStack}</div>
                   {item.code != "" || item.code != undefined ? <a type="button" href={item.liveUrl} class="btn btn-bd-primary" target="_blank">Live</a> : null}
                   {item.code != "" || item.code != undefined ? <a type="button" href={item.code} class="btn btn-dark" target="_blank">Code</a> : null}
+
                 </div>
               </div>
               <div className="col-md-5">

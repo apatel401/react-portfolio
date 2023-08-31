@@ -40,21 +40,24 @@
   --gray-1: #454e56;
   --tooltip-text-color: #b2becd;
   --tooltip-background-color: #23272a;
-  --body-font : "Open Sans" , sans-serif;
-  --heading-font : "cubano", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --heading-font: "cubano", sans-serif;
   --tooltip-margin: 50px;
   --tooltip-arrow-size: 6px;
-  
+
 }
+
 .btn-bd-primary {
   font-weight: 600;
   background-color: #712cf9 !important;
   margin-right: 20px;
   color: #fff !important;
-  &:hover{
+
+  &:hover {
     background-color: #6528e0 !important;
   }
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -65,8 +68,15 @@ body {
   color: var(--text-primary) !important;
 }
 
-h1,h2,h3,h4,h5,h6, button, a{
-font-family: var(--heading-font);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
+  font-family: var(--heading-font);
 }
 
 code {
@@ -82,6 +92,7 @@ code {
   .navbar {
     background-color: var(--dark-bg) !important;
     color: var(--text-primary) !important;
+
     .navbar-brand {
       color: var(--text-primary) !important;
 
@@ -143,12 +154,14 @@ code {
   #skills {
     background-color: var(--background);
     padding-left: 5px !important;
-    @media (min-width: 575px) { 
-      padding-left: 5px; 
+
+    @media (min-width: 575px) {
+      padding-left: 5px;
       padding-right: 5px;
     }
-    .progress{
-      margin-top:5px;
+
+    .progress {
+      margin-top: 5px;
       margin-bottom: 5px;
     }
   }
@@ -171,7 +184,8 @@ code {
   .Tooltip-Wrapper {
     display: inline-block;
     position: relative;
-    &:hover{
+
+    &:hover {
       cursor: pointer;
     }
   }
@@ -280,36 +294,41 @@ code {
       height: 2rem;
     }
   }
-  #resume .rounded-start{
-    @media (max-width: 767px) { 
-    display: none
+
+  #resume .rounded-start {
+    @media (max-width: 767px) {
+      display: none
+    }
   }
-}
-  .title-container{
+
+  .title-container {
     display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: 30px 0;
-  .active-btn{
-    border-bottom: 5px solid var(--text-primary);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 30px 0;
+
+    .active-btn {
+      border-bottom: 5px solid var(--text-primary);
+    }
+
+    button {
+      margin-right: 3rem;
+      background-color: transparent;
+      font-family: var(--heading-font);
+      color: var(--text-primary);
+      appearance: none;
+      -webkit-appereance: none;
+      border: 0;
+      font-size: 20px;
+      padding: 0.5rem 1rem;
+    }
   }
-  button{
-    margin-right: 3rem;
-    background-color: transparent;
-    font-family: var(--heading-font);
-    color: var(--text-primary);
-    appearance: none;
-    -webkit-appereance: none;
-    border: 0;
-    font-size: 20px;
-    padding: 0.5rem 1rem;
+
+  .college {
+    padding: 20px;
+    border: 2px solid var(--text-primary);
   }
-  }
- .college{
-   padding: 20px;
-   border: 2px solid var(--text-primary);
- }
 
 
 
@@ -333,6 +352,7 @@ code {
   gap: 2rem;
   margin-top: 3rem;
   margin-bottom: 4rem;
+
   .card {
     cursor: pointer;
     position: relative;
@@ -345,113 +365,135 @@ code {
     box-shadow: 5px 5px 15px rgb(25 32 71 / 25%);
     transition: 0.2s ease-in-out all, 0.3s ease-in-out box-shadow;
     background: white;
+
     &:hover {
       transition: 0.2s transform ease-in-out;
       transform: scale(1.015);
-      .card-overlay, .card-header {
+
+      .card-overlay,
+      .card-header {
         transform: translateY(0);
+      }
     }
   }
-}
-.card-image {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
-.card-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  border-radius: 5px;
-  background-color: #fff;
-  transform: translateY(100%);
-  transition: 0.2s ease-in-out;
 
-  .card-header {
+  .card-image {
+    width: 100%;
+    height: auto;
     position: relative;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    padding: 1.5em 2em;
-    border-radius: 5px 0 0 0;
+  }
+
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 5px;
     background-color: #fff;
-    transform: translateY(-100%);
+    transform: translateY(100%);
     transition: 0.2s ease-in-out;
-    .card-title {
-      font-size: 1em;
-      margin: 0 0 0.3em;
+
+    .card-header {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      padding: 1.5em 2em;
+      border-radius: 5px 0 0 0;
+      background-color: #fff;
+      transform: translateY(-100%);
+      transition: 0.2s ease-in-out;
+
+      .card-title {
+        font-size: 1em;
+        margin: 0 0 0.3em;
+        color: #192047;
+        font-weight: bold;
+      }
+    }
+
+    .card-readnow {
+      padding: 0em 1em 1em 1em;
+      margin: 0;
+      overflow: hidden;
+      float: right;
+      font-size: small;
       color: #192047;
-      font-weight: bold;
+    }
+
+  }
+
+}
+
+.comp-wrapper {
+  display: flex;
+
+  ul {
+    padding-left: 1rem;
   }
 }
-.card-readnow {
-  padding: 0em 1em 1em 1em;
-  margin: 0;
-  overflow: hidden;
-  float: right;
-  font-size: small;
-  color: #192047;
-}
 
-}
-
-}
-.comp-wrapper{
-display: flex;
-ul{
-  padding-left: 1rem;
-}
-}
-.component-space{
+.component-space {
   flex: 3;
 }
-.component-btn{
+
+.component-btn {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   flex: 1;
- 
-  li{
-    button{
+
+  li {
+    button {
       background-color: transparent;
       border: 0;
       color: var(--text-primary);
       font-family: var(--heading-font);
-      
+
     }
-    .active{
+
+    .active {
       color: var(--text-primary);
       border-bottom: 2px solid var(--text-primary);
     }
   }
 }
-.flexing{
+
+.flexing {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 2.5rem;
-  .contact-card{
+
+  .contact-card {
     height: auto;
     flex: 40% 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    svg{
+
+    svg {
       width: 50px;
       height: 50px;
       margin-bottom: 20px;
     }
-    a{
-      color:#084db4;
-      &:hover{
-color:#0d6efd;
+
+    a {
+      color: #084db4;
+
+      &:hover {
+        color: #0d6efd;
       }
     }
   }
 
-}
 
+}
+.stack{
+  font-size: 1.2rem;
+  font-weight: 600;
+
+} 

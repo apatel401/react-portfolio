@@ -1,26 +1,30 @@
-import React, { useContext} from "react";
+import React, { useContext } from "react";
 import NewProjects from "./NewProjects";
 import Contact from "./Contact";
-import {FcContacts, FcDocument, FcLightAtTheEndOfTunnel} from "react-icons/fc"
+import {
+  FcContacts,
+  FcDocument,
+  FcLightAtTheEndOfTunnel,
+} from "react-icons/fc";
 
 import { Navbar, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
-import ComponentLibrary from "./ComponentLibrary"
+import ComponentLibrary from "./ComponentLibrary";
 // import {FaSun, FaMoon} from "react-icons/fa";
 
-
 const Header = () => {
-
   return (
     <Router>
       <Navbar collapseOnSelect expand="lg">
-      <div className="container">
-      <Nav.Link as={Link} to={"/"} className="custom-link">
-      <Navbar.Brand as={Link} to={"/"} className="custom-link">Akash Patel</Navbar.Brand>
-              </Nav.Link>
+        <div className="container">
+          <Nav.Link as={Link} to={"/"} className="custom-link">
+            <Navbar.Brand as={Link} to={"/"} className="custom-link">
+              Akash Patel
+            </Navbar.Brand>
+          </Nav.Link>
           {/* <div className="themeChange" onClick={switchTheme}>
               {context.theme === "dark" ? <FaSun /> : <FaMoon />}
               </div> */}
@@ -41,35 +45,34 @@ const Header = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-      </div>        
+        </div>
       </Navbar>
       <div className="container-fluid">
-      <div className="row">
-        <div className="col-12">
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/projects">
-          <NewProjects />
-        </Route>
-        <Route path="/resume">
-          <ProfRes />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/component-library">
+        <div className="row">
+          <div className="col-12">
+            <Switch>
+              <Route path="/" exact>
+                <Home />
+              </Route>
+              <Route path="/skills">
+                <Skills />
+              </Route>
+              <Route path="/projects">
+                <NewProjects />
+              </Route>
+              <Route path="/resume">
+                <ProfRes />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              {/* <Route path="/component-library">
           <ComponentLibrary />
-        </Route>
-        
-      </Switch>
+        </Route> */}
+            </Switch>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
     </Router>
   );
 };
