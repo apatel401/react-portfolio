@@ -14,17 +14,7 @@ function ProfRes() {
             <div className="card-body">
               <h2 className="card-title">Profile</h2>
               <p className="card-text">
-                Front End Developer with 4 years of experience in Education,
-                Ecommerce, and Retail Sectors. Good Understanding of data
-                structure, algorithms and Software Development Life Cycles.
-                Resourceful and adaptable to quickly problem solve, debug, and
-                stay on schedule with short project deadlines. Passionate about
-                automation code, clean, efficient and maintainable code
-                demonstrated by a portfolio of projects. Strong project
-                execution skills coupled with conceptualization skills and team
-                work, turning ideas into projects to solve real problems. Always
-                learning new skills. Team player of multiple successful
-                projects.{" "}
+              Dedicated and highly skilled Web Developer/Software Developer with over 5 years of experience in designing, developing, and maintaining innovative web applications and software solutions. Seeking a challenging position in a dynamic organization where I can leverage my expertise in front-end and back-end technologies, programming languages, and problem-solving abilities to contribute to the development of cutting-edge software products and enhance user experiences. Committed to staying updated with emerging trends in web and software development to deliver efficient and scalable solutions.{" "}
               </p>
             </div>
           </div>

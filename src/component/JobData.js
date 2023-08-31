@@ -46,60 +46,35 @@
       id: "1",
       company: "TVO",
       title: "web Production Artist",
-      dates: "December 2020 - Present",
+      dates: "September 2019 - Present",
       duties: [
-        "Part of an Agile(Scrum) Development Team to deliver regular updates to project managers.",
-        "Collaborated on creating Innovative apps and widgets using React, NodeJS, HTML5, SCSS and CSS3.",
-        "Created programs in modern JavaScript, NodeJS and TypeScript to minimize production time and maximize performance.",
-        "Collaborated Setting up and managing NPM Registry for Components and component Library.",
-        "Used module bundler tools like Webpack and Gulp",
-        "Used GIT as a version control and GitLab for remote repository.",
-        "Contributed in creating and maintaining automation scripts which can optimize tasks and enhance accessibility",
-        "Troubleshooting the bugs reported by internal QA team or external team using bug tracking software Target Process.",
-        "Responsible for taking care of W3C and WCAG 2.0 (Level AA) and AODA Compliance."
-  
+       "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
+       "Pioneered the development of dynamic 3D models using React Three Fiber Ecosystem, seamlessly integrating them into web applications to elevate user engagement and interactivity.",
+       "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
+       "Collaborated on the establishment of an NPM Registry for Components and Component Library, streamlining development workflows.",
+       "Utilized module bundler tools such as Webpack and Gulp to enhance code organization and deployment efficiency.",
+       "Spearheaded the creation and maintenance of automation scripts, enhancing task optimization and accessibility across projects.",
+       "Played a pivotal role in achieving W3C, WCAG 2.0 (Level AA & Level AAA), and AODA compliance, ensuring the highest standards of accessibility.",
+       "Directed the development and management of reusable Interactive Learning Objects and widgets, promoting reusability and consistency.",
+       "Designed a centralized website featuring component snippets used in courses, facilitating easy access for fellow team members.",
+       "Produced vendor files efficiently using NPM, Node.js, Webpack, Grunt, and Gulp bundling tools.",
+       "Diligently addressed and resolved bugs reported by both internal QA teams through the utilization of bug tracking software, Target Process."
       ],
     },
     {
       id: "2",
       company: "Taqqut productions",
       title: "web developer",
-      dates: "June 2020 - December 2020",
+      dates: "December 2018 - September 2019",
       duties: [
-        "Developed Games using HTML5, Canvas, CSS3, SCSS, JavaScript, React, Angular and jQuery.",
-        "Creation of customized theme in WordPress and Shopify",
-        "Build template from scratch using JSON configuration in Shopify",
-        "Setting up back end store for online book store",
-        "Creating and maintaining website which has maintainable and clean code.",
-        "Maintaining all W3C standards WCAG 2.0 and AODA standards."
+        "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",
+        "Leveraged WordPress to develop and maintain responsive websites, ensuring seamless user experiences and ease of content management for clients.",
+        "Demonstrated proficiency in JavaScript across various projects, optimizing website performance and interactivity to captivate user engagement.",
+        "Seamlessly integrated Shopify into e-commerce solutions, facilitating secure online transactions and enhancing user trust and satisfaction.",
+        "Played a pivotal role in the internationalization and localization of websites, tailoring content and functionality to diverse global audiences, thereby expanding reach and user engagement.",
+        "Delved into the exciting world of game development using JavaScript, creating immersive and entertaining gaming experiences that captivated users and drove engagement."
       ],
-    },
-    {
-      id: "3",
-      company: "TVO",
-      title: "web Production Artist",
-      dates: "September 2019 - June 2020",
-      duties: [
-        "Developing and managing reusable Interactive Learning Objects and widgets.",
-        "Creating central website which includes snippets for component used in courses so other employees have easy access to snippets.",
-        "Experience enhancing accessibility by leveraging expertise adding automation script",
-        "Producing vendor files using NPM, Node.js, Webpack, Grunt and Gulp bundling tools",
-        "Troubleshooting the bugs reported by internal QA team or external team.",
-        "Responsible for taking care of W3C and WCAG 2.0 (Level AA) and AODA Compliance."
-      ]
-    },
-    {
-      id: "4",
-      company: "BoldPod Inc.",
-      title: "Front-end developer",
-      dates: "January 2019 - September 2019",
-      duties: [
-        "Creating customized theme using WordPress",
-        "Developed an app using phone gap for Android OS and IOS.",
-        "Maintaining AODA and W3C standard in all website developed.",
-        "Proficiency in creating website which is responsive, clean and professional.",
-      ],
-    },
+    }
   ];
   
   export const School = [
@@ -120,15 +95,6 @@
       code: " ",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
-    // {
-    //   name: "multiple choice checkbox",
-    //   liveUrl:
-    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/compound-interest-calculator.html",
-    //   appDetail: "",
-    //   imgSrc: "/img/quiz.png",
-    //   code:"https://gitlab.tvo.org/digital-learning/interactives/",
-    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    // },
     {
       name: "Interactive Images",
       liveUrl:
@@ -210,12 +176,4 @@
       code: " ",
       techStack: "React,Redux, Firebase, NodeJS, Sass, Webpack",
     }
-    // {
-    //   name: "Component Library",
-    //   liveUrl: "https://apatelportfolio.netlify.app/component-library",
-    //   appDetail: "Library made of reusable component made using React, Sass, NodeJs , NPM Registry, Webpack and Gulp",
-    //   imgSrc: "/img/component-library.png",
-    //   code:"",
-    //   techStack: "React, NodeJS, Webpack, Gulp, NPM",
-    // },
   ];
