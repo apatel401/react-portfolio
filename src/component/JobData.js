@@ -87,6 +87,33 @@
   ];
   export const CompDisplay = [
     {
+      name: "YouTube Clone",
+      liveUrl:
+        "https://yt-clone-apatel.netlify.app/",
+      appDetail: "Created Youtube clone using Youtube APIs, Learned Debouncing and applied it in search box to optimized Performance.",
+      imgSrc: "/img/yt-clone.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, Redux, Tailwind CSS, Youtube APIs, Rapid APIs, CRA",
+    },
+    {
+      name: "Food Ordering App",
+      liveUrl:
+        "https://food-ordering-4692.netlify.app/",
+      appDetail: "Created Food ordering app using Swiggy APIs.",
+      imgSrc: "/img/food-ordering.png",
+      code: "https://github.com/apatel401/food-ordering-app",
+      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
+    },
+    {
+      name: "Periodic table",
+      liveUrl:
+        "https://periodic-table-with-bohr-model.netlify.app",
+      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
+      imgSrc: "/img/periodic-table.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
+    },
+    {
       name: "multiple-choice",
       liveUrl:
         "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
@@ -113,24 +140,24 @@
       code: " ",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
-    {
-      name: "Content cabinet",
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
-      appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-      imgSrc: "/img/content-cabinet.png",
-      code: "",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
-    {
-      name: "sorting table",
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
-      appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-      imgSrc: "/img/sorting-table.png",
-      code: "",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
+    // {
+    //   name: "Content cabinet",
+    //   liveUrl:
+    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
+    //   appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
+    //   imgSrc: "/img/content-cabinet.png",
+    //   code: "",
+    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    // },
+    // {
+    //   name: "sorting table",
+    //   liveUrl:
+    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
+    //   appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
+    //   imgSrc: "/img/sorting-table.png",
+    //   code: "",
+    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    // },
     {
       name: "Image juxtaposition",
       liveUrl:
