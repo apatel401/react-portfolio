@@ -105,6 +105,15 @@
       techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
     },
     {
+      name: "Netflix GPT",
+      liveUrl:
+        "https://moviedbgpt.web.app/",
+      appDetail: "Created Netflix clone using TMDB APIs. Levereged ChatGPT APIs to get the movie suggestions on search",
+      imgSrc: "/img/netflix-gpt.png",
+      code: "https://github.com/apatel401/netflix-GPT",
+      techStack: "React, Redux, Tailwind CSS,OPENAI APIs(chatGPT 3.5) TMDB APIs",
+    },
+    {
       name: "Periodic table",
       liveUrl:
         "https://periodic-table-with-bohr-model.netlify.app",
