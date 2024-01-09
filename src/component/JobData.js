@@ -45,11 +45,10 @@
     {
       id: "1",
       company: "TVO",
-      title: "web Production Artist",
+      title: "Front end Developer",
       dates: "September 2019 - Present",
       duties: [
        "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
-       "Pioneered the development of dynamic 3D models using React Three Fiber Ecosystem, seamlessly integrating them into web applications to elevate user engagement and interactivity.",
        "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
        "Collaborated on the establishment of an NPM Registry for Components and Component Library, streamlining development workflows.",
        "Utilized module bundler tools such as Webpack and Gulp to enhance code organization and deployment efficiency.",
@@ -58,13 +57,14 @@
        "Directed the development and management of reusable Interactive Learning Objects and widgets, promoting reusability and consistency.",
        "Designed a centralized website featuring component snippets used in courses, facilitating easy access for fellow team members.",
        "Produced vendor files efficiently using NPM, Node.js, Webpack, Grunt, and Gulp bundling tools.",
+       "Pioneered the development of dynamic 3D models using React Three Fiber Ecosystem, seamlessly integrating them into web applications to elevate user engagement and interactivity.",
        "Diligently addressed and resolved bugs reported by both internal QA teams through the utilization of bug tracking software, Target Process."
       ],
     },
     {
       id: "2",
       company: "Taqqut productions",
-      title: "web developer",
+      title: "Web Developer",
       dates: "December 2018 - September 2019",
       duties: [
         "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",

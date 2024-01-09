@@ -136,6 +136,10 @@ code {
   h2.splitting {
     color: var(--text-primary);
     font-size: 3rem;
+    @media (max-width: 575px) {
+      font-size: 2rem;
+      margin-top: 30px;
+    }
   }
 
   h2.splitting .char {
