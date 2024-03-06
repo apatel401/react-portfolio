@@ -8,7 +8,7 @@ function FloatingMenu() {
   return (
     <ul className="floating-menu">
     <li>
-      <a href="./assets/akash-patel-webdeveloper.pdf" download>
+      <a href="./assets/akash-patel-frontend.pdf" download>
       <Tooltip
         content={
           <>
