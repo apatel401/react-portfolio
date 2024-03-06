@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <div className="col-sm-6 col-xs-12 d-flex justify-content-center align-items-center">
             <h2 ref={splitRef} data-splitting="true">
-              Hi! I am a Fullstack Developer. Love to code automation scripts and learn new technologies.
+              Hi! I am a Front-End Developer passionate about bridging design and code, crafting interactive marvels in each line of code where functionality meets creativity.
             </h2>
             
             </div>

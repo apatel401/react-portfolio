@@ -45,11 +45,10 @@
     {
       id: "1",
       company: "TVO",
-      title: "web Production Artist",
+      title: "Front end Developer",
       dates: "September 2019 - Present",
       duties: [
        "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
-       "Pioneered the development of dynamic 3D models using React Three Fiber Ecosystem, seamlessly integrating them into web applications to elevate user engagement and interactivity.",
        "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
        "Collaborated on the establishment of an NPM Registry for Components and Component Library, streamlining development workflows.",
        "Utilized module bundler tools such as Webpack and Gulp to enhance code organization and deployment efficiency.",
@@ -58,13 +57,14 @@
        "Directed the development and management of reusable Interactive Learning Objects and widgets, promoting reusability and consistency.",
        "Designed a centralized website featuring component snippets used in courses, facilitating easy access for fellow team members.",
        "Produced vendor files efficiently using NPM, Node.js, Webpack, Grunt, and Gulp bundling tools.",
+       "Pioneered the development of dynamic 3D models using React Three Fiber Ecosystem, seamlessly integrating them into web applications to elevate user engagement and interactivity.",
        "Diligently addressed and resolved bugs reported by both internal QA teams through the utilization of bug tracking software, Target Process."
       ],
     },
     {
       id: "2",
       company: "Taqqut productions",
-      title: "web developer",
+      title: "Web Developer",
       dates: "December 2018 - September 2019",
       duties: [
         "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",
@@ -86,6 +86,42 @@
     },
   ];
   export const CompDisplay = [
+    {
+      name: "YouTube Clone",
+      liveUrl:
+        "https://yt-clone-apatel.netlify.app/",
+      appDetail: "Created Youtube clone using Youtube APIs, Learned Debouncing and applied it in search box to optimized Performance.",
+      imgSrc: "/img/yt-clone.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, Redux, Tailwind CSS, Youtube APIs, Rapid APIs, CRA",
+    },
+    {
+      name: "Food Ordering App",
+      liveUrl:
+        "https://food-ordering-4692.netlify.app/",
+      appDetail: "Created Food ordering app using Swiggy APIs.",
+      imgSrc: "/img/food-ordering.png",
+      code: "https://github.com/apatel401/food-ordering-app",
+      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
+    },
+    {
+      name: "Netflix GPT",
+      liveUrl:
+        "https://moviedbgpt.web.app/",
+      appDetail: "Created Netflix clone using TMDB APIs. Levereged ChatGPT APIs to get the movie suggestions on search",
+      imgSrc: "/img/netflix-gpt.png",
+      code: "https://github.com/apatel401/netflix-GPT",
+      techStack: "React, Redux, Tailwind CSS,OPENAI APIs(chatGPT 3.5) TMDB APIs",
+    },
+    {
+      name: "Periodic table",
+      liveUrl:
+        "https://periodic-table-with-bohr-model.netlify.app",
+      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
+      imgSrc: "/img/periodic-table.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
+    },
     {
       name: "multiple-choice",
       liveUrl:
@@ -113,24 +149,24 @@
       code: " ",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
-    {
-      name: "Content cabinet",
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
-      appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-      imgSrc: "/img/content-cabinet.png",
-      code: "",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
-    {
-      name: "sorting table",
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
-      appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-      imgSrc: "/img/sorting-table.png",
-      code: "",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
+    // {
+    //   name: "Content cabinet",
+    //   liveUrl:
+    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
+    //   appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
+    //   imgSrc: "/img/content-cabinet.png",
+    //   code: "",
+    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    // },
+    // {
+    //   name: "sorting table",
+    //   liveUrl:
+    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
+    //   appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
+    //   imgSrc: "/img/sorting-table.png",
+    //   code: "",
+    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    // },
     {
       name: "Image juxtaposition",
       liveUrl:
