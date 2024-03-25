@@ -5,7 +5,6 @@ import testAnimation from "./assets/skills.json";
 import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 import Splitting from "splitting";
-// import { ThemeContext } from "./Provider";
 
 export default function Home() {
   const [lines, setLines] = useState([]);
@@ -37,8 +36,6 @@ export default function Home() {
   // }
 
   return (
-    <>
-    {console.log(lines)}
     <div className="container-fluid home">
       <div className="container">
         <div className="row">
@@ -58,6 +55,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-      </>
   );
 }

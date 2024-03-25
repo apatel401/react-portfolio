@@ -212,11 +212,11 @@ export default function Skills() {
         <div className="row">
           <div className="col-12">
             <h1
-              className="text-center mt-3 splitting chars"
+              className="text-center my-6 splitting chars"
               data-splitting="true">
               Skills
             </h1>
-            <div className="skills d-flex flex-wrap justify-content-center">
+            <div className="skills">
               {
                 skillData.map((icon) =>{
                   let defining = icon.skillIcon;

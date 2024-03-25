@@ -13,6 +13,7 @@ import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
 import ComponentLibrary from "./ComponentLibrary";
+import Footer from "./Footer";
 // import {FaSun, FaMoon} from "react-icons/fa";
 
 const Header = () => {
@@ -70,6 +71,13 @@ const Header = () => {
           <ComponentLibrary />
         </Route> */}
             </Switch>
+          </div>
+        </div>
+        </div>
+        <div className="container-fluid mt-4">
+        <div className="row bg-dark">
+          <div className="col-12  h-50 w-100 p-4">
+            <Footer />
           </div>
         </div>
       </div>

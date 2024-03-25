@@ -21,9 +21,9 @@ function ProfRes() {
         </div>
       </div>
       <hr />
-      <div className="row">
+      {/* <div className="row">
         <FloatingMenu />
-      </div>
+      </div> */}
       <div className="row">
         <div className="col-md-12">
           <h2 className="text-center">Experience</h2>
