@@ -45,8 +45,8 @@
     {
       id: "1",
       company: "TVO",
-      title: "Front end Developer",
-      dates: "September 2019 - Present",
+      title: "Web Production Artist",
+      dates: "September 2019 - March 2020, December 2020 - Present",
       duties: [
        "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
        "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
@@ -64,8 +64,8 @@
     {
       id: "2",
       company: "Taqqut productions",
-      title: "Web Developer",
-      dates: "December 2018 - September 2019",
+      title: "FUll Stack Developer",
+      dates: "April 2020 - December 2020",
       duties: [
         "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",
         "Leveraged WordPress to develop and maintain responsive websites, ensuring seamless user experiences and ease of content management for clients.",
