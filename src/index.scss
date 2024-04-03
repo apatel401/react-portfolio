@@ -159,7 +159,9 @@ code {
     background-color: var(--background);
     padding-left: 5px !important;
     height: 100vh;
-
+    @media (max-width: 575px) {
+      height: auto !important;
+    }
     @media (min-width: 575px) {
       padding-left: 5px;
       padding-right: 5px;
@@ -357,7 +359,11 @@ code {
     padding: 20px;
     border: 2px solid var(--text-primary);
   }
-
+.ex-container{
+  @media (max-width: 575px) {
+  margin-bottom: 120px;
+  }
+}
 
 
 }
@@ -531,4 +537,11 @@ code {
   font-weight: 400;
   text-transform: uppercase;
   font-family: "cubano";
+}
+
+.hero-left,.hero-right{
+  @media (max-width: 575px) {
+      margin-top: 40px !important;
+      margin-bottom: 40px !important;
+  }
 }

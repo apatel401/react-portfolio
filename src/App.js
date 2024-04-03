@@ -7,7 +7,7 @@ import FloatingMenu from "./component/FloatingMenu";
 function App() {
   const context = useContext(ThemeContext);
   return (
-    <main className="main-container" data-theme={context.theme}>
+    <main className="main-container position-relative" data-theme={context.theme}>
       <FloatingMenu />
   <Header />
   </main>
