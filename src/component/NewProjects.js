@@ -4,7 +4,7 @@ import {CompDisplay} from './JobData'
 function NewProjects() {
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <div className="row">
         {CompDisplay.map((item) => {
           return(
@@ -22,7 +22,7 @@ function NewProjects() {
 
                 </div>
               </div>
-              <div className="col-md-5">
+              <div className="col-md-5 mb-5">
                 <img src={item.imgSrc} className="card-img" alt="..." />
               </div>
             </div>

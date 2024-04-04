@@ -12,9 +12,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";
-import ComponentLibrary from "./ComponentLibrary";
 import Footer from "./Footer";
-// import {FaSun, FaMoon} from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -26,9 +24,6 @@ const Header = () => {
               Akash Patel
             </Navbar.Brand>
           </Nav.Link>
-          {/* <div className="themeChange" onClick={switchTheme}>
-              {context.theme === "dark" ? <FaSun /> : <FaMoon />}
-              </div> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
@@ -48,7 +43,7 @@ const Header = () => {
           </Navbar.Collapse>
         </div>
       </Navbar>
-      <div className="container-fluid">
+      <div className="container-fluid pb-5">
         <div className="row">
           <div className="col-12">
             <Switch>
@@ -67,14 +62,11 @@ const Header = () => {
               <Route path="/contact">
                 <Contact />
               </Route>
-              {/* <Route path="/component-library">
-          <ComponentLibrary />
-        </Route> */}
             </Switch>
           </div>
         </div>
         </div>
-        <div className="container-fluid mt-4">
+        <div className="container-fluid mt-4 position-absolute bottom-0">
         <div className="row bg-dark">
           <div className="col-12  h-50 w-100 p-4">
             <Footer />
