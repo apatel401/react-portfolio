@@ -136,6 +136,7 @@ code {
   h2.splitting {
     color: var(--text-primary);
     font-size: 2rem;
+
     @media (max-width: 575px) {
       font-size: 1rem;
       margin-top: 30px;
@@ -159,15 +160,17 @@ code {
     background-color: var(--background);
     padding-left: 5px !important;
     height: 100vh;
+
     @media (max-width: 575px) {
       height: auto !important;
     }
+
     @media (min-width: 575px) {
       padding-left: 5px;
       padding-right: 5px;
     }
 
-    h1{
+    h1 {
       margin: 50px 0;
     }
 
@@ -200,6 +203,7 @@ code {
     width: 4rem;
     margin: 10px;
     transform: scale(1.1);
+
     @media (max-width: 575px) {
       width: 3rem;
     }
@@ -281,6 +285,7 @@ code {
   .card {
     background-color: var(--background);
     border: 0;
+
     @media (max-width: 575px) {
       width: 86%;
       margin: 0 auto;
@@ -359,11 +364,10 @@ code {
     padding: 20px;
     border: 2px solid var(--text-primary);
   }
-.ex-container{
-  @media (max-width: 575px) {
-  margin-bottom: 120px;
+
+  .ex-container {
+    margin-bottom: 120px;
   }
-}
 
 
 }
@@ -510,6 +514,7 @@ code {
     align-items: center;
     box-shadow: 2px 2px 11px #0000002e;
     padding: 50px;
+
     svg {
       width: 50px;
       height: 50px;
@@ -527,21 +532,24 @@ code {
 
 
 }
-.stack{
+
+.stack {
   font-size: 1.2rem;
   font-weight: 600;
 
-} 
-.footer{
+}
+
+.footer {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "cubano";
 }
 
-.hero-left,.hero-right{
+.hero-left,
+.hero-right {
   @media (max-width: 575px) {
-      margin-top: 40px !important;
-      margin-bottom: 40px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
   }
 }
