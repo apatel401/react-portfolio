@@ -1,5 +1,5 @@
 import React from "react";
-import {CompDisplay} from './JobData'
+import { CompDisplay } from './JobData'
 
 function NewProjects() {
 
