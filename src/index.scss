@@ -365,10 +365,9 @@ code {
     border: 2px solid var(--text-primary);
   }
 
-  .ex-container {
-    margin-bottom: 120px;
-  }
-
+.ex-container{
+  margin-bottom: 120px;
+}
 
 }
 
@@ -551,5 +550,19 @@ code {
   @media (max-width: 575px) {
     margin-top: 40px !important;
     margin-bottom: 40px !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 780px){
+  /* For portrait layouts only */
+  .hero-right h2{
+    font-size: 1.75rem !important;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1024px){
+  /* For portrait layouts only */
+  .hero-right, .hero-left{
+    margin-top: 50px !important;
   }
 }

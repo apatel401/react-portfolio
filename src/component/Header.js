@@ -43,7 +43,7 @@ const Header = () => {
           </Navbar.Collapse>
         </div>
       </Navbar>
-      <div className="container-fluid">
+      <div className="container-fluid pb-5">
         <div className="row">
           <div className="col-12">
             <Switch>

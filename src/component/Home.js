@@ -50,7 +50,6 @@ export default function Home() {
             <h2 ref={splitRef} data-splitting="true">
               Hi! I am a Software Developer passionate about bridging design and code, crafting interactive marvels in each line of code where functionality meets creativity.
             </h2>
-            
             </div>
           </div>
         </div>
