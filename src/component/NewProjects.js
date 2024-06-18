@@ -1,10 +1,10 @@
 import React from "react";
-import {CompDisplay} from './JobData'
+import { CompDisplay } from './JobData'
 
 function NewProjects() {
 
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5  mb-5">
       <div className="row">
         {CompDisplay.map((item) => {
           return(

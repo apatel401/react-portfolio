@@ -8,7 +8,7 @@ import {
 } from "react-icons/fc";
 
 import { Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, useParams } from "react-router-dom";
 import ProfRes from "./ProfRes";
 import Home from "./Home";
 import Skills from "./Skills";

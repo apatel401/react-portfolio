@@ -45,8 +45,8 @@
     {
       id: "1",
       company: "TVO",
-      title: "Front end Developer",
-      dates: "September 2019 - Present",
+      title: "Web Production Artist",
+      dates: "September 2019 - March 2020, December 2020 - Present",
       duties: [
        "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
        "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
@@ -64,8 +64,8 @@
     {
       id: "2",
       company: "Taqqut productions",
-      title: "Web Developer",
-      dates: "December 2018 - September 2019",
+      title: "FUll Stack Developer",
+      dates: "April 2020 - December 2020",
       duties: [
         "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",
         "Leveraged WordPress to develop and maintain responsive websites, ensuring seamless user experiences and ease of content management for clients.",
@@ -96,40 +96,22 @@
       techStack: "React, Redux, Tailwind CSS, Youtube APIs, Rapid APIs, CRA",
     },
     {
-      name: "Food Ordering App",
-      liveUrl:
-        "https://food-ordering-4692.netlify.app/",
-      appDetail: "Created Food ordering app using Swiggy APIs.",
-      imgSrc: "/img/food-ordering.png",
-      code: "https://github.com/apatel401/food-ordering-app",
-      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
-    },
-    {
       name: "Netflix GPT",
       liveUrl:
-        "https://moviedbgpt.web.app/",
+      "https://moviedbgpt.netlify.app/",
       appDetail: "Created Netflix clone using TMDB APIs. Levereged ChatGPT APIs to get the movie suggestions on search",
       imgSrc: "/img/netflix-gpt.png",
       code: "https://github.com/apatel401/netflix-GPT",
       techStack: "React, Redux, Tailwind CSS,OPENAI APIs(chatGPT 3.5) TMDB APIs",
     },
     {
-      name: "Periodic table",
-      liveUrl:
-        "https://periodic-table-with-bohr-model.netlify.app",
-      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
-      imgSrc: "/img/periodic-table.png",
-      code: "https://github.com/apatel401/youtube_clone",
-      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
-    },
-    {
-      name: "multiple-choice",
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
-      appDetail: "Multiple Choice is interactive learning object/widget that shows question is asked to student and student need to select their responses. ILO also include validation of answers and giving feedback on submition of answer, This ILO features a fully configurable json file to switch between secondary and elementary modes. The ILO is fully responsive and AODA compliant. Widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
-      imgSrc: "/img/multiple-choice.png",
-      code: " ",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
+      name: "Dashboard",
+      liveUrl: "https://dapper-dashboard.netlify.app/",
+      appDetail:
+        "React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts! using SyncFusion components",
+      imgSrc: "/img/dashboard.png",
+      code: "https://github.com/apatel401/dashboard",
+      techStack: "React, NodeJS, Webpack, Tailwind UI, SyncFusion",
     },
     {
       name: "Interactive Images",
@@ -141,39 +123,31 @@
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
     {
-      name: "Flashcards",    
-      liveUrl:
-        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
-      appDetail: "Flashcards is an interactive learning object that features a fully configurable json file to include images, text and audio with front and back cards and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-      imgSrc: "/img/flashcards.png",
-      code: " ",
-      techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    },
-    // {
-    //   name: "Content cabinet",
-    //   liveUrl:
-    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/content-cabinet.html",
-    //   appDetail: "Content Cabinet is an ILO that features multi level of tabs which shows different level of html page for each categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-    //   imgSrc: "/img/content-cabinet.png",
-    //   code: "",
-    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    // },
-    // {
-    //   name: "sorting table",
-    //   liveUrl:
-    //     "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/sorting-table.html",
-    //   appDetail: "Sorting table is widget where students can interect with carousel of cards and place those cards into respective categories and validation is shown if card is placed into correct categories. and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
-    //   imgSrc: "/img/sorting-table.png",
-    //   code: "",
-    //   techStack: "React, NodeJS, Sass, Webpack, Gulp",
-    // },
-    {
       name: "Image juxtaposition",
       liveUrl:
         "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/image-juxtaposition.html",
       appDetail: "This widget is used by students to shown two different images set by slider which shows both images at the same time with both image width adjusted by slider/juxtaposition. This widget is responsive and AODA compliant. This widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
       imgSrc: "/img/image-juxtaposition.png",
       code:"",
+      techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    },
+    {
+      name: "multiple-choice",
+      liveUrl:
+      "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/multiple-choice.html",
+      appDetail: "Multiple Choice is interactive learning object/widget that shows question is asked to student and student need to select their responses. ILO also include validation of answers and giving feedback on submition of answer, This ILO features a fully configurable json file to switch between secondary and elementary modes. The ILO is fully responsive and AODA compliant. Widget is currently used by students who enrolled in TVO courses and Ontario Ministry Curriculum",
+      imgSrc: "/img/multiple-choice.png",
+      code: " ",
+      techStack: "React, NodeJS, Sass, Webpack, Gulp",
+    },
+   
+    {
+      name: "Flashcards",    
+      liveUrl:
+        "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
+      appDetail: "Flashcards is an interactive learning object that features a fully configurable json file to include images, text and audio with front and back cards and it can be inserted into TVO courses and is currently being used by the Ontario Ministry of Education. The ILO is fully responsive and AODA compliant.",
+      imgSrc: "/img/flashcards.png",
+      code: " ",
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
     {
@@ -186,15 +160,6 @@
       techStack: "React, NodeJS, Sass, Webpack, Gulp",
     },
     {
-      name: "Dashboard",
-      liveUrl: "https://dapper-dashboard.netlify.app/",
-      appDetail:
-        "React Admin Dashboard Application. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts! using SyncFusion components",
-      imgSrc: "/img/dashboard.png",
-      code: "https://github.com/apatel401/dashboard",
-      techStack: "React, NodeJS, Webpack, Tailwind UI, SyncFusion",
-    },
-    {
       name: "Project Management",
       liveUrl: "",
       appDetail:
@@ -204,6 +169,15 @@
       techStack: "Apollo, GraphQL, MongoDB, Express, React, NodeJS, Webpack",
     },
     {
+      name: "Food Ordering App",
+      liveUrl:
+        "https://food-ordering-4692.netlify.app/",
+      appDetail: "Created Food ordering app using Swiggy APIs.",
+      imgSrc: "/img/food-ordering.png",
+      code: "https://github.com/apatel401/food-ordering-app",
+      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
+    },
+    {
       name: "Shopping App with redux",
       liveUrl:
         "https://helpful-blini-c54aaf.netlify.app/",
@@ -211,5 +185,14 @@
       imgSrc: "/img/redux.png",
       code: " ",
       techStack: "React,Redux, Firebase, NodeJS, Sass, Webpack",
+    },
+    {
+      name: "Periodic table",
+      liveUrl:
+        "https://periodic-table-with-bohr-model.netlify.app",
+      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
+      imgSrc: "/img/periodic-table.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
     }
   ];

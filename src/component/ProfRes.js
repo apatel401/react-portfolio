@@ -14,7 +14,7 @@ function ProfRes() {
             <div className="card-body">
               <h2 className="card-title">Profile</h2>
               <p className="card-text">
-              Dedicated and highly skilled Web Developer/Software Developer with over 5 years of experience in designing, developing, and maintaining innovative web applications and software solutions. Seeking a challenging position in a dynamic organization where I can leverage my expertise in front-end and back-end technologies, programming languages, and problem-solving abilities to contribute to the development of cutting-edge software products and enhance user experiences. Committed to staying updated with emerging trends in web and software development to deliver efficient and scalable solutions.{" "}
+              Dedicated and highly skilled Software developer with over 5 years of experience in designing, developing, and maintaining innovative web applications and software solutions. Seeking a challenging position in a dynamic organization where I can leverage my expertise in front-end and back-end technologies, programming languages, and problem-solving abilities to contribute to the development of cutting-edge software products and enhance user experiences. Committed to staying updated with emerging trends in web and software development to deliver efficient and scalable solutions. 
               </p>
             </div>
           </div>
@@ -61,6 +61,7 @@ function ProfRes() {
                 return <p>- {duty}</p>;
               })}
             </div>
+            <hr />
             <div className="col-md-12">
               <h2 className="text-center">Education</h2>
               <div className="college">
