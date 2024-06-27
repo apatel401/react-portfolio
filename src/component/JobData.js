@@ -45,8 +45,8 @@
     {
       id: "1",
       company: "TVO",
-      title: "Web Production Artist",
-      dates: "September 2019 - March 2020, December 2020 - Present",
+      title: "SOftware Developer",
+      dates: "September 2019 - Present",
       duties: [
        "Collaborated on projects using React, NodeJS, HTML5, SCSS, and CSS3 to create applications and widgets.",
        "Crafted efficient programs in contemporary JavaScript and NodeJS, optimizing production timelines while elevating performance standards.",
@@ -64,8 +64,8 @@
     {
       id: "2",
       company: "Taqqut productions",
-      title: "FUll Stack Developer",
-      dates: "April 2020 - December 2020",
+      title: "Full Stack Developer",
+      dates: "January 2019 - September 2019",
       duties: [
         "Spearheaded React-based projects, crafting dynamic and engaging web applications that met and exceeded client expectations for both functionality and aesthetics.",
         "Leveraged WordPress to develop and maintain responsive websites, ensuring seamless user experiences and ease of content management for clients.",
@@ -103,6 +103,24 @@
       imgSrc: "/img/netflix-gpt.png",
       code: "https://github.com/apatel401/netflix-GPT",
       techStack: "React, Redux, Tailwind CSS,OPENAI APIs(chatGPT 3.5) TMDB APIs",
+    },
+    {
+      name: "Periodic table",
+      liveUrl:
+        "https://periodic-table-with-bohr-model.netlify.app",
+      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
+      imgSrc: "/img/periodic-table.png",
+      code: "https://github.com/apatel401/youtube_clone",
+      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
+    },
+    {
+      name: "Food Ordering App",
+      liveUrl:
+        "https://food-ordering-4692.netlify.app/",
+      appDetail: "Created Food ordering app using Swiggy APIs.",
+      imgSrc: "/img/food-ordering.png",
+      code: "https://github.com/apatel401/food-ordering-app",
+      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
     },
     {
       name: "Dashboard",
@@ -169,15 +187,6 @@
       techStack: "Apollo, GraphQL, MongoDB, Express, React, NodeJS, Webpack",
     },
     {
-      name: "Food Ordering App",
-      liveUrl:
-        "https://food-ordering-4692.netlify.app/",
-      appDetail: "Created Food ordering app using Swiggy APIs.",
-      imgSrc: "/img/food-ordering.png",
-      code: "https://github.com/apatel401/food-ordering-app",
-      techStack: "React, Redux, Tailwind CSS, Swiggy APIs, Parcel, Jest",
-    },
-    {
       name: "Shopping App with redux",
       liveUrl:
         "https://helpful-blini-c54aaf.netlify.app/",
@@ -186,13 +195,5 @@
       code: " ",
       techStack: "React,Redux, Firebase, NodeJS, Sass, Webpack",
     },
-    {
-      name: "Periodic table",
-      liveUrl:
-        "https://periodic-table-with-bohr-model.netlify.app",
-      appDetail: "Built periodic table showing all 118 elements and showing details of each element on click. Dynamically created bohr model for each using React Three Fiber",
-      imgSrc: "/img/periodic-table.png",
-      code: "https://github.com/apatel401/youtube_clone",
-      techStack: "React, React Three Fiber, React three Drei, React three cannon, Vite, Sass",
-    }
+    
   ];
