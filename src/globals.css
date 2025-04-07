@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism effect */
+.glass {
+  @apply bg-gradient-to-r from-blue-500/30 to-indigo-700/30 backdrop-blur-lg  border border-white/10 rounded-lg shadow-lg;
+}
+
+/* Sidebar hover effect */
+.sidebar-icon {
+  @apply transition-transform duration-300 ease-in-out ;
+}
+.sidebar-icon svg:hover{
+  @apply scale-125 transition-transform duration-300 ease-in-out text-sky-400/50;
+}
+.tooltip{
+  @apply transition-transform duration-300 ease-in-out p-2;
+}
