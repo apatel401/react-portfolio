@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="relative z-10 py-16 max-w-7xl mx-auto sm:py-24" id="about">
+    <div className="relative z-10 py-16 max-w-7xl mx-auto sm:py-24 sm:px-8" id="about">
       <div className="space-y-4 mb-10">
         <motion.h1
           initial={{ opacity: 0, x: -75 }}

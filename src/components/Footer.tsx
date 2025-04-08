@@ -1,31 +1,32 @@
 import { BackgroundBeams } from "./BackgroundBeams";
 import ShinyButton from "./ShinyButton";
+import Akash from "../assets/img/AP.png";
 
 const Footer = () => {
   return (
     <div
-      className="bg-[#0a0a0a] max-w-7xl mx-auto flex flex-col justify-center antialiased relative border border-gray-300 rounded-xl mb-5"
+      className="bg-[#0a0a0a] max-w-7xl mx-auto flex flex-col justify-center antialiased relative border border-gray-300 rounded-xl mb-5 px-8"
       id="contact"
     >
       <div>
-        <div className="space-y-8 p-10">
-          <h1 className="text-5xl text-white font-bold max-w-2xl leading-[110%] relative z-10">
-            Like what you see? Reach out{" "}
-            <a
-              href="mailto:webdevbyakash@gmail.com"
-              className="text-primary hover:text-primary/80 border-b-2 border-primary hover:border-primary/80 transition-colors duration-200"
-            >
-              via email
-            </a>{" "}
-            to collaborate!
-          </h1>
-
-          <ShinyButton>
-            <a href="tel:+16476077560">Schedule call</a>
-          </ShinyButton>
+        <div className="space-y-8 px-10 pt-10 flex">
+          <img src={Akash} className="" style={{ width: "150px", height: "150px", maxWidth: "100%", borderRadius: "50%" }} />
+          <div className="ml-8">
+            <h1 className="text-3xl text-white font-bold leading-[110%] relative z-10 mb-8">
+            Impressed with the work? Let’s team up.
+              <br />
+              I’d love to collaborate! Reach out
+            </h1>
+            <ShinyButton icon="📧" iconPosition="left">
+              <a href="tel:+16476077560">Via Email</a>
+            </ShinyButton>
+            <ShinyButton icon="📞" iconPosition="left">
+              <a href="tel:+16476077560">Schedule call</a>
+            </ShinyButton>
+          </div>
         </div>
 
-        <div className="mt-16 p-10 border-t border-dark-200 dark:border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
+        <div className="mt-8 p-10 border-t border-dark-200 dark:border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
           <div className="space-y-2.5">
             <h3 className="text-xl font-bold relative z-10">
               Akash Patel

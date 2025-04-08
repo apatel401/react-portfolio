@@ -29,12 +29,12 @@ const HeroSection = () => {
     }, []);
 
     return (
-        <HeroHighlight className='flex flex-col justify-center items-center gap-6' >
+        <HeroHighlight className='flex flex-col justify-center items-center gap-8' >
             <TextGenerateEffect 
             words="Blending Creativity with Seamless Web Experiences"
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
             />
-            <p ref={titleRef} className='text-white text-xl text-center mx-20 text-dark-200 dark:text-stone-200/90'>Hello! I'm Akash. I specialize in building high-performance, visually stunning web applications where code meets creativity, transforming ideas into seamless user experiences.</p>
+            <p ref={titleRef} className='text-white text-xl text-center max-w-5xl text-dark-200 dark:text-stone-200/90'>Hello! I'm Akash. I specialize in building high-performance, visually stunning web applications where code meets creativity, transforming ideas into seamless user experiences.</p>
             <p ref={descriptionRef} className="text-white text-xl sm:text-2xl">
                 Software Developer | Front End Developer | Educator | Innovator
             </p>

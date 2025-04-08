@@ -9,10 +9,10 @@ import { MdPermContactCalendar } from "react-icons/md";
 import Experience from './components/Experience';
 
 const navItems = [
-  { name: "Home", link: "#home", icon: <FaHome /> },
-  { name: "Work", link: "#work", icon: <FaBriefcase /> },
-  { name: "About", link: "#about", icon: <FaUser/> },
-  { name: "Contact", link: "#contact", icon: <MdPermContactCalendar /> },
+  { name: "Home", link: "home", icon: <FaHome /> },
+  { name: "Work", link: "projects", icon: <FaBriefcase /> },
+  { name: "About", link: "about", icon: <FaUser/> },
+  { name: "Contact", link: "contact", icon: <MdPermContactCalendar /> },
 ];
 
 const App = () => {

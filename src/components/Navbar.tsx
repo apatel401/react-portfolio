@@ -64,7 +64,7 @@ export const Navbar = ({
             key={`link=${idx}`}
             to={navItem.link}
             className={cn(
-              "relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300"
+              "relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300 hover:cursor-pointer"
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>

@@ -6,7 +6,7 @@ const Sidebar = () => {
   const links = [
     { href: "https://github.com/apatel401", icon: <FaGithub />, label: "GitHub" },
     { href: "https://www.linkedin.com/in/akash-patel-98885a182/", icon: <FaLinkedin />, label: "LinkedIn" },
-    { href: "/akash-patel-software-dev.pdf", icon: <FaFileAlt />, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1Stzgdrysd30VznhLp8I3QBRVXv23w3Tm/view?usp=sharing-software-dev.pdf", icon: <FaFileAlt />, label: "Resume" },
     { href: "mailto:webdevbyakash@gmail.com", icon: <FaEnvelope />, label: "Email" },
   ];
 
