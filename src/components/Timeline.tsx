@@ -4,6 +4,7 @@ import {
   motion,
 } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
+import { useExperienceDuration } from "./useExperinceDuration";
 
 interface TimelineEntry {
   title: string;
@@ -16,6 +17,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
+  const duration = useExperienceDuration();
 
   useEffect(() => {
     if (ref.current) {
@@ -42,7 +44,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Changelog from my journey
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+          I&apos;ve been working as Software Developer from {duration.years} years. Here&apos;s
           a timeline of my journey.
         </p>
       </div>
@@ -58,10 +60,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <div>
-              <h3 className="hidden md:block text-lg md:pl-20 md:text-xl font-bold text-white dark:text-white">
-                {item.title}
-              </h3>
-                </div>
+                <h3 className="hidden md:block text-lg md:pl-20 md:text-xl font-bold text-white dark:text-white">
+                  {item.title}
+                </h3>
+              </div>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">

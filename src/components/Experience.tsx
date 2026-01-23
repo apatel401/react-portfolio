@@ -10,14 +10,14 @@ const Experience = () => {
                 <div>
                     <div className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
                         <ul className='list-disc marker:text-sky-400 pl-6 mt-2'>
-                            <li className='pb-2'>Developed and maintained high-quality, scalable React applications following best practices.</li>
-                            <li className='pb-2'>Collaborated closely with UX/UI designers to build responsive and user-friendly interfaces.</li>
-                            <li className='pb-2'>Optimized application performance using lazy loading, memoization, and code-splitting.</li>
-                            <li className='pb-2'>Integrated frontend applications with RESTful APIs and GraphQL services.</li>
-                            <li className='pb-2'>Ensured cross-browser compatibility and accessibility compliance (WCAG 2.1).</li>
-                            <li className='pb-2'>Implemented testing strategies using Jest, React Testing Library, and Cypress.</li>
-                            <li className='pb-2'>Led code reviews, provided mentorship, and enforced coding best practices.</li>
-                            <li className='pb-2'>Worked on CI/CD pipelines for automated testing and deployment.</li>
+                            <li className='pb-2'>Designed and delivered enterprise-scale SaaS, cloud-native web applications using React.js, Node.js, and TypeScript, deployed via AWS CDK with infrastructure-as-code best practices.</li>
+                            <li className='pb-2'>Architected and maintained secure, multi-tenant REST and GraphQL APIs for SaaS platforms, integrating with Amazon Aurora MySQL, DynamoDB, and MongoDB, including data modeling, schema governance, and performance optimization.</li>
+                            <li className='pb-2'>Implemented serverless and event-driven SaaS workflows using AWS Lambda, Step Functions, and S3, enabling high availability, fault tolerance, and cost-efficient scaling.</li>
+                            <li className='pb-2'>Built CI/CD pipelines for SaaS environments using GitLab CI/CD and AWS CodePipeline, automating build, test, security scanning, and containerized deployments with Docker.</li>
+                            <li className='pb-2'>Established SaaS monitoring, logging, and operational visibility using AWS CloudWatch, supporting proactive incident detection and faster root-cause resolution.</li>
+                            <li className='pb-2'>Worked in Agile enterprise SaaS teams (Scrum/Kanban), contributing to sprint planning, backlog grooming, code reviews, release management, and cross-team coordination.</li>
+                            <li className='pb-2'>Partnered with UX, QA, DevOps, and Product teams to translate Figma designs into scalable SaaS interfaces, ensuring accessibility, responsiveness, and API contract alignment.</li>
+                            <li className='pb-2'>Enforced coding standards, security controls, and documentation to support compliant, maintainable, and scalable SaaS systems.</li>
                         </ul>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Experience = () => {
             date: "June 2013 - May 2016",
             content: (
                 <div>
-                    
+
                 </div>
             ),
         },
