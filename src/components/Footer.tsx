@@ -9,14 +9,14 @@ const Footer = () => {
       id="contact"
     >
       <div>
-        <div className="space-y-8 px-10 pt-10 flex">
-          <img src={Akash} className="" style={{ width: "150px", height: "150px", maxWidth: "100%", borderRadius: "50%" }} />
-          <div className="ml-8">
-            <h1 className="text-3xl text-white font-bold leading-[110%] relative z-10 mb-8">
+        <div className="space-y-8 md:pt-10 flex pt-2">
+          <img src={Akash} className="md:w-40 md:h-40 rounded-full w-20 h-20"  />
+          <div className="md:ml-8 ml-2">
+            <h3 className="text-xl md:text-3xl text-white font-bold leading-[110%] relative z-10 mb-8">
             Impressed with the work? Let’s team up.
               <br />
               I’d love to collaborate! Reach out
-            </h1>
+            </h3>
             <ShinyButton icon="📧" iconPosition="left">
               <a href="tel:+16476077560">Via Email</a>
             </ShinyButton>
