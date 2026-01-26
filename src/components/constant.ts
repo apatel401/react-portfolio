@@ -1,4 +1,5 @@
 import reactLogo from "../assets/reactjs.svg";
+import awsLogo from "../assets/aws.svg";
 import nextLogo from "../assets/nextjs.svg";
 import nodeLogo from "../assets/nodejs.svg";
 import tailwindLogo from "../assets/tailwindcss.svg";
@@ -23,7 +24,6 @@ import threejsLogo from "../assets/threejs.svg";
 import youtubClone from "../assets/img/yt-clone.png";
 import netflixGPT from "../assets/img/netflix-gpt.png";
 import periodicTable from "../assets/img/periodic-table.png";
-import foodOrdering from "../assets/img/food-ordering.png";
 import dashboard from "../assets/img/dashboard.png";
 import inuktitut from "../assets/img/inuktut.png";
 import inhabit from "../assets/img/inhabit.png";
@@ -70,6 +70,12 @@ export const skillCards: SkillCard[] = [
     description: "JavaScript but better",
     imageUrl: typescriptLogo,
     bgColor: "bg-[#61DAFB]/20",
+  },
+  {
+    name: "AWS",
+    description: "Major AWS Services",
+    imageUrl: awsLogo,
+    bgColor: "bg-[#61DAFB]/60",
   },
   {
     name: "JavaScript",
@@ -397,23 +403,6 @@ export const projectData = [
       "React three cannon",
       "Vite",
       "Sass",
-    ],
-  },
-  {
-    name: "Food Ordering App",
-    id: "foodordering",
-    heading: "Food Ordering App",
-    liveDemoUrl: "https://food-ordering-4692.netlify.app/",
-    description: "Created Food ordering app using Swiggy APIs.",
-    imageUrl: foodOrdering,
-    sourceCodeUrl: "https://github.com/apatel401/food-ordering-app",
-    techStack: [
-      "React",
-      "Redux",
-      "Tailwind CSS",
-      " Swiggy APIs",
-      "Parcel",
-      "Jest",
     ],
   },
   {
